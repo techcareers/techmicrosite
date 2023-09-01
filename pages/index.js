@@ -39,7 +39,7 @@ h9 Job family pill på job cards
 
 */
 
-const HomePage = () => {
+const HomePage = ({ imageTechAtHmGroup }) => {
   const theme = useTheme();
   const isXs = useMediaQuery(theme.breakpoints.down(376));
   const isSm = useMediaQuery(theme.breakpoints.down(769));
@@ -116,7 +116,7 @@ const HomePage = () => {
         <ImageWithText
           className={styles.imageWithText}
           style={{ color: "#000000" }}
-          imageUrl="/images/start/techathmgroup.jpg"
+          imageUrl={imageTechAtHmGroup}
           title="Tech @ H&M Group"
           paragraph="We are a community of creators, doers, learners, entrepreneurs, and innovators. Our mission is to re- invent the world of fashion through technology, creating meaningful growth along the way. With the right people and cutting-edge tech, we can help drive change towards a more sustainable future."
           cta={{ text: "Discover our approach", href: "/techathmgroup" }}
@@ -484,5 +484,15 @@ const HomePage = () => {
     </div>
   );
 };
+
+// Added getServerSideProps function
+export async function getServerSideProps(context) {
+  // Fetch your image data here. For demonstration, I'm using a placeholder.
+  const imageTechAtHmGroup = "/images/start/techathmgroup.jpg";
+
+  return {
+    props: { imageTechAtHmGroup }, // will be passed to the page component as props
+  };
+}
 
 export default HomePage;
