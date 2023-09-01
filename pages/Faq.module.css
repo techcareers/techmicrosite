@@ -1,0 +1,61 @@
+
+
+.faqQuestionTitle{
+  text-align: center;
+}
+
+.faqQuestionsContainer{
+
+    width: 80%;
+    margin: auto;
+
+}
+
+/* Extra small devices (portrait phones, less than 375px) */
+@media (max-width: 375px) {
+
+  .faqQuestionsContainer{
+    padding: 0px 25.5px;
+    width: 100%;
+  }
+
+
+  
+  .faqQuestionTitle{
+    /* Heading/XLarge/Mobile */
+text-align: left;
+
+font-family: HM Group Ampersand;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 27.999px; /* 164.7% */
+letter-spacing: -0.32px;
+  }
+  
+}
+
+/* Small devices (landscape phones, 376px to 768px) */
+@media (min-width: 376px) and (max-width: 768px) {
+    .faqQuestionsContainer{
+
+        width: auto;
+        margin: 0 40px;
+    
+    }
+}
+
+/* Medium devices (tablets, 769px and up) */
+@media (min-width: 769px) and (max-width: 1199px) {
+  /* Adjustments for tablets can be added here */
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Adjustments for large desktops can be added here */
+}
+
+/* Custom breakpoint for 4K and large screens */
+@media (min-width: 2560px) {
+  /* Adjustments for 4K and large screens can be added here */
+}

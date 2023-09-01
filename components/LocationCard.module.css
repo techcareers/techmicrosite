@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  align-items: center;
+  width: 338px;
+  height: 100px;
+  text-decoration: none;
+  background-color: #fff;
+  margin: 40px 64px;
+}
+
+.image {
+  width: 96px;
+  height: 96px;
+}
+
+.title {
+  padding: 0 0 0 16px;
+  width: 164px;
+  color: black;
+  font-family: HM Group Ampersand;
+font-size: 28px;
+font-style: normal;
+font-weight: 300;
+line-height: 91.944px; /* 127.7% */
+letter-spacing: -0.32px;
+white-space: nowrap;
+}
+
+/* Extra small devices (portrait phones, less than 375px) */
+@media (max-width: 375px) {
+  .title {
+    font-family: HM Group Ampersand;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 55.996px; /* 121.73% */
+    letter-spacing: -0.32px;
+  }
+  
+  
+}
+
+/* Small devices (landscape phones, 376px to 768px) */
+@media (min-width: 376px) and (max-width: 768px) {
+ 
+  .card {
+    display: flex;
+    align-items: center;
+    width: 338px;
+    height: 96px;
+    text-decoration: none;
+    background-color: #fff;
+    margin: 0 64px;
+  }
+
+  .title {
+    font-family: HM Group Ampersand;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 91.944px; /* 127.7% */
+    letter-spacing: -0.32px;
+  }
+  
+
+}

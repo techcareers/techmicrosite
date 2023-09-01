@@ -1,0 +1,76 @@
+
+
+.introWrapper h2{
+    margin: 0 128px;
+
+}
+
+.introWrapper div{
+
+    margin: 0 128px;
+}
+
+.hiringImage{
+
+    width: 1200px;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 375px) */
+@media (max-width: 375px) {
+
+    .introWrapper h2{
+        margin: 0 24px;
+        width: 327px !important;
+    
+    }
+
+    .introWrapper div{
+
+        margin: 0 24px;
+
+        width: 327px !important;    }
+
+    .hiringImage{
+
+      
+        width: 327px;    }
+    
+
+  
+}
+
+/* Small devices (landscape phones, 376px to 768px) */
+@media (min-width: 376px) and (max-width: 768px) {
+    .introWrapper h2{
+        margin: 0 40px;
+    
+    }
+
+    .introWrapper div{
+
+        margin: 0 40px;
+    }
+
+    .hiringImage{
+
+        width: 100%;
+    }
+    
+}
+
+/* Medium devices (tablets, 769px and up) */
+@media (min-width: 769px) and (max-width: 1199px) {
+  /* Adjustments for tablets can be added here */
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Adjustments for large desktops can be added here */
+}
+
+/* Custom breakpoint for 4K and large screens */
+@media (min-width: 2560px) {
+  /* Adjustments for 4K and large screens can be added here */
+}

@@ -1,0 +1,158 @@
+/* VideoBackground.module.css */
+
+.video-background {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 0;
+}
+
+.video-background__video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.title {
+  z-index: 1;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 92px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.32px;
+  width: 944px;
+  height: 184px;
+  margin-left: 128px;
+  margin-right: 128px;
+  z-index: 1;
+}
+
+.cta-button {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 1.1rem;
+  text-align: left;
+  cursor: pointer;
+  z-index: 1;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 24px;
+  width: 188px;
+  height: 53px;
+  z-index: 1;
+  margin-left: 128px;
+  margin-right: 128px;
+}
+
+.cta-text {
+  width: 124px;
+  height: 21px;
+  font-family: 'HM Group Ampersand', Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #ffffff;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+.cta-button:hover {
+  background-color: #ffffff;
+  color: #2c2c2c;
+  border: 1px solid #ffffff;
+  z-index: 1;
+}
+
+.cta-button:hover > .cta-text {
+  color: #000000;
+}
+
+.cta-text:hover {
+  color: #000000;
+  z-index: 2;
+}
+
+/* Extra small devices (portrait phones, less than 375px) */
+@media (max-width: 375px) {
+  .title {
+
+    width: 311px;
+margin: 0 32px;
+    margin-left: 32px;
+    margin-right: 0;
+    font-family: HM Group Ampersand;
+font-size: 46px;
+font-style: normal;
+font-weight: 300;
+line-height: 55.996px; 
+letter-spacing: -0.32px;
+}
+
+
+  
+
+  .cta-button {
+    width: 311px;
+
+    margin: 48px 32px;
+  }
+}
+
+/* Small devices (landscape phones, 376px to 768px) */
+@media (min-width: 376px) and (max-width: 768px) {
+  .title {
+    font-size: 72px;    
+    width: auto;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+
+  .cta-button {
+    width: 188px;
+    margin-left: 32px;
+    margin-right: 32px;
+
+align-items: center;
+  }
+
+  .cta-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+  }
+}
+
+/* Medium devices (tablets, 769px and up) */
+@media (min-width: 769px) and (max-width: 1199px) {
+  /* Adjustments for tablets can be added here */
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Adjustments for large desktops can be added here */
+}
+
+/* Custom breakpoint for 4K and large screens */
+@media (min-width: 2560px) {
+  /* Adjustments for 4K and large screens can be added here */
+}

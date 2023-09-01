@@ -1,0 +1,87 @@
+.card {
+  display: block;
+  position: relative;
+  width: 316px;
+  height: 316px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.background {
+  padding: 50px;
+  width: 90%;
+  height: 316px;
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4); /* adjust as needed */
+}
+
+.title {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+.myButton {
+  border: none;
+ color: #2c2c2c;
+  padding: 16px 32px;
+ text-align: center;
+ /* text-decoration: none; Är detta nödvändigt?*/
+  /*display: inline-block; Är detta nödvändigt?*/
+  font-size: 14px;
+ /*margin: 4px 2px; Är detta nödvändigt?*/
+ transition-duration: 0.4s;
+ /*cursor: pointer; Är detta nödvändigt?*/
+   }
+
+
+
+   /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+
+/* Custom breakpoint for 4K and large screens */
+@media (min-width: 2560px) {
+
+
+}

@@ -1,0 +1,58 @@
+.image-background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  text-align: left;
+  margin-left: 168px;
+  margin-right: auto;
+  letter-spacing: -0.32px;
+  line-height: 92px;
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 375px) */
+@media (max-width: 375px) {
+  .title {
+
+    margin-left: 24px;
+    margin-right: auto;
+    letter-spacing: -0.32px;
+    line-height: 92px;
+  }
+  
+ 
+}
+
+/* Small devices (landscape phones, 376px to 768px) */
+@media (min-width: 376px) and (max-width: 768px) {
+  .title {
+  margin-left: 20px;
+  }
+}
+
+/* Medium devices (tablets, 769px and up) */
+@media (min-width: 769px) and (max-width: 1199px) {
+  /* Adjustments for tablets can be added here */
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Adjustments for large desktops can be added here */
+}
+
+/* Custom breakpoint for 4K and large screens */
+@media (min-width: 2560px) {
+  /* Adjustments for 4K and large screens can be added here */
+}

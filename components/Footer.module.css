@@ -1,0 +1,262 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 60px 0px;
+    gap: 60px;
+    
+    height: 506px;
+    
+    background: #222222;
+    border-top: 1px solid #000000;
+    color: #FFFFFF;
+
+
+}
+
+.footer p{
+    color: #ffffff;
+}
+
+.footerLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    
+    width: 944px;
+    height: 112px;
+    
+
+}
+
+.footerBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 24px 64px;
+    gap: 24px;
+    
+    width: 944px;
+    height: 74px;
+    
+    border-top: 1px solid #6D7278;
+    
+
+}
+
+.ctaDiv{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 298.67px;
+height: 53px;
+}
+
+.ctaButton{
+    padding: 16px 32px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #ffffff;
+    font-family: HM Group Ampersand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    cursor: pointer;
+
+   transition-duration: 0.4s;
+}
+
+.ctaButton:hover
+        {
+        color: #2c2c2c;
+        background-color: #ffffff;
+        cursor: pointer;
+
+       }
+
+
+.careerDiv{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 298.67px;
+height: 56px;
+
+}
+.linksDiv{
+
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 298.67px;
+height: 112px;
+}
+
+.footerBottom {
+
+    flex-wrap: wrap;
+}
+
+.footerBottom p {
+color: #6D7278;
+}
+
+.footerSocials{
+
+    margin-left: auto;
+    width: fit-content;
+}
+
+.ytLogo{
+    margin-right: 12px;
+}
+
+.liLogo{
+margin-left: 12px;
+
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 375px) */
+@media (max-width: 375px) {
+
+    .footer{
+        height: fit-content;
+    }
+
+    /* CSS for mobileFooterLinks */
+.mobileFooterLinks {
+    width: 322px;
+}
+
+
+
+/* CSS for mobileCareerDiv */
+.mobileCareerDiv {
+ margin-bottom: 20px;
+}
+
+/* CSS for mobileLinksDiv */
+.mobileLinksDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 6px;
+    align-self: stretch;
+}
+
+/* CSS for mobileFooterBottom */
+.mobileFooterBottom {
+    width: 322px;
+color: #6D7278;
+font-family: HM Group Ampersand;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24.32px; /* 152% */
+}
+
+/* CSS for mobileFooterSocials */
+.mobileFooterSocials {
+  margin: 20px 0 0 0;
+}
+
+/* CSS for mobileCtaButton */
+.mobileCtaButton {
+    display: flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 24px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    color:#FFFFFF;
+    margin: 0 auto;
+
+}
+
+/* CSS for mobileCareerTitle */
+.mobileCareerTitle {
+    font-family: HM Group Ampersand;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.999px; /* 164.7% */
+    letter-spacing: -0.32px;
+    margin-top: 50px;
+}
+
+/* CSS for mobileCareerText */
+.mobileCareerText {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.999px; /* 164.7% */
+}
+
+/* CSS for mobileLinksTitle */
+.mobileLinksTitle {
+    font-family: HM Group Ampersand;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.999px; /* 164.7% */
+    letter-spacing: -0.32px;
+}
+
+
+
+/* CSS for mobileLiLogo */
+.mobileLiLogo {
+    margin: 0 24px;
+}
+
+
+    
+  
+}
+
+
+
+/* Small devices (landscape phones, 376px to 768px) */
+@media (min-width: 376px) and (max-width: 768px) {
+    .footerLinks{
+
+        
+        width: 100%;
+        
+    
+    }
+    .footerBottom {
+
+      width: 100%;
+    }
+
+
+}
+
+/* Medium devices (tablets, 769px and up) */
+@media (min-width: 769px) and (max-width: 1199px) {
+  /* Adjustments for tablets can be added here */
+}
+
+/* Large devices (desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Adjustments for large desktops can be added here */
+}
+
+/* Custom breakpoint for 4K and large screens */
+@media (min-width: 2560px) {
+  /* Adjustments for 4K and large screens can be added here */
+}

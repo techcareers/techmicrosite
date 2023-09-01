@@ -1,0 +1,55 @@
+/* Navbar.module.css */
+.openInNewIcon{
+    color: white;
+    
+    margin-left: 6px;
+}
+.navbarLogo {
+    margin-right: 20px; /* Adds some space between the logo and the buttons */
+}
+
+
+
+/* If you'd like a custom background color for the navbar */
+.appBarCustom {
+    background-color: #333; /* Or any color you prefer */
+}
+
+.navBarLinks{
+position: relative;
+margin: 0 auto;
+width: fit-content;
+justify-content: center;
+text-transform: none;
+}
+
+.navBarCta{
+    color: #ffffff; 
+    border-color: #000000;
+text-transform: none;
+
+font-family: HM Group Ampersand;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+}
+
+.navBarCta:hover {
+    color: #000000 !important;
+    background-color: #ffffff;
+  }
+
+.css-1q39md6-MuiButtonBase-root-MuiButton-root{
+    text-transform: none;
+}
+
+.hamburgerButton{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: white;
+    font-size: 30px;
+    width: fit-content;
+    padding: 0;
+}
