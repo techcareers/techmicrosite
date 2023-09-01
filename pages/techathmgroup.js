@@ -1,23 +1,23 @@
 import React, { useRef } from "react";
 import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import ImageBackground from "@/components/ImageBackground";
-import Footer from "@/components/Footer";
+import ImageBackground from "/components/ImageBackground";
+import Footer from "/components/Footer";
 import Collapsible from "react-collapsible";
 import styles from "./TechAtHmGroup.module.css";
-import Arrow from "@/components/Arrow";
+import Arrow from "/components/Arrow";
 import Image from "next/image";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore.js";
 import { BorderBottom } from "@mui/icons-material";
-import Image2 from "public/images/techathmgroup/imagetechathmgroup2.png";
-import ScrollingCards from "@/components/ScrollingCards";
-import FeaturedJobsCard from "@/components/FeaturedJobsCard";
-import MeetColleaguesCard from "@/components/MeetColleaguesCard";
+import Image2 from "/public/images/techathmgroup/imagetechathmgroup2.jpg";
+import ScrollingCards from "/components/ScrollingCards";
+import FeaturedJobsCard from "/components/FeaturedJobsCard";
+import MeetColleaguesCard from "/components/MeetColleaguesCard";
 import Button from "@mui/material/Button";
-import Navbar from "@/components/Navbar";
+import Navbar from "/components/Navbar";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -62,7 +62,7 @@ const TechAtHmGroup = () => {
       <Navbar />
       <div className="imageBackgroundContainer" style={{ height: "400px" }}>
         <ImageBackground
-          posterUrl={"/images/techathmgroup/imagetechathmgroup.png"}
+          posterUrl={"/images/techathmgroup/imagetechathmgroup.jpg"}
           title={"Tech at H&M Group"}
         />
       </div>
@@ -126,27 +126,27 @@ const TechAtHmGroup = () => {
           <MeetColleaguesCard
             title={"shrutisree"}
             videoUrl={"https://youtu.be/TZbkBa90C00"}
-            thumbnailUrl={"/images/techathmgroup/imageshrutisree.png"}
+            thumbnailUrl={"/images/techathmgroup/imageshrutisree.jpg"}
           />
           <MeetColleaguesCard
             title={"saketh"}
             videoUrl={"https://youtu.be/bbVz5ngOh8A"}
-            thumbnailUrl={"/images/techathmgroup/imagesaketh.png"}
+            thumbnailUrl={"/images/techathmgroup/imagesaketh.jpg"}
           />
           <MeetColleaguesCard
             title={"ramak"}
             videoUrl={"https://youtu.be/NFrp9lXVaoA"}
-            thumbnailUrl={"/images/techathmgroup/imageramak.png"}
+            thumbnailUrl={"/images/techathmgroup/imageramak.jpg"}
           />
           <MeetColleaguesCard
             title={"rajashekar"}
             videoUrl={"https://youtu.be/0odwYkPQo8s"}
-            thumbnailUrl={"/images/techathmgroup/imagerajasekhar.png"}
+            thumbnailUrl={"/images/techathmgroup/imagerajasekhar.jpg"}
           />
           <MeetColleaguesCard
             title={"eilish"}
             videoUrl={"https://youtu.be/zaruKFneMuY"}
-            thumbnailUrl={"/images/techathmgroup/imageeilish.png"}
+            thumbnailUrl={"/images/techathmgroup/imageeilish.jpg"}
           />
         </ScrollingCards>
         <div
@@ -249,7 +249,7 @@ const TechAtHmGroup = () => {
             >
               <Image
                 style={{ objectFit: "cover" }}
-                src={"/images/techathmgroup/imageaianalyticsanddata.png"}
+                src={"/images/techathmgroup/imageaianalyticsanddata.jpg"}
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
@@ -278,7 +278,7 @@ const TechAtHmGroup = () => {
             >
               <Image
                 style={{ objectFit: "cover" }}
-                src={"/images/techathmgroup/imagecybersecurityandrisk.png"}
+                src={"/images/techathmgroup/imagecybersecurityandrisk.jpg"}
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
@@ -309,7 +309,7 @@ const TechAtHmGroup = () => {
             >
               <Image
                 style={{ objectFit: "cover" }}
-                src={"/images/techathmgroup/imageoperations.png"}
+                src={"/images/techathmgroup/imageoperations.jpg"}
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
@@ -338,7 +338,7 @@ const TechAtHmGroup = () => {
             >
               <Image
                 style={{ objectFit: "cover" }}
-                src={"/images/techathmgroup/imagecoreplatforms.png"}
+                src={"/images/techathmgroup/imagecoreplatforms.jpg"}
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
@@ -368,7 +368,7 @@ const TechAtHmGroup = () => {
             >
               <Image
                 style={{ objectFit: "cover" }}
-                src={"/images/techathmgroup/imageproductdevelopment.png"}
+                src={"/images/techathmgroup/imageproductdevelopment.jpg"}
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
@@ -395,7 +395,7 @@ const TechAtHmGroup = () => {
             >
               <Image
                 style={{ objectFit: "cover" }}
-                src={"/images/techathmgroup/imageuserexperiencedesign.png"}
+                src={"/images/techathmgroup/imageuserexperiencedesign.jpg"}
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
@@ -422,7 +422,7 @@ const TechAtHmGroup = () => {
             >
               <Image
                 style={{ objectFit: "cover" }}
-                src={"/images/techathmgroup/imageuserexperiencedesign.png"}
+                src={"/images/techathmgroup/imageuserexperiencedesign.jpg"}
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
