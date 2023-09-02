@@ -41,7 +41,12 @@ const FAQ = () => {
     <div>
       <Navbar />
       <div className="imageBackgroundContainer" style={{ height: "400px" }}>
-        <ImageBackground posterUrl={"/images/faq/imagefaq.jpg"} title={"FAQ"} />
+        <ImageBackground
+          posterUrl={
+            "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/faq/imagefaq.jpg"
+          }
+          title={"FAQ"}
+        />
       </div>
 
       <div
