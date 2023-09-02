@@ -6,4 +6,7 @@ const nextConfig = {
 
 module.exports = {
   output: "standalone",
+  images: {
+    domains: ["techmicrositestorage.blob.core.windows.net"],
+  },
 };
