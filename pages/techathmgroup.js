@@ -12,7 +12,6 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore.js";
 import { BorderBottom } from "@mui/icons-material";
-import Image2 from "/public/images/techathmgroup/imagetechathmgroup2.jpg";
 import ScrollingCards from "/components/ScrollingCards";
 import FeaturedJobsCard from "/components/FeaturedJobsCard";
 import MeetColleaguesCard from "/components/MeetColleaguesCard";
@@ -462,10 +461,12 @@ const TechAtHmGroup = () => {
         >
           We are harnessing the power of tech and data with digitalisation
         </h2>
-        <Image
+        <img
           className={styles.ourAreasImage}
           style={{}}
-          src={Image2}
+          src={
+            "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imagetechathmgroup2.jpg"
+          }
           alt="image2"
         />
 
