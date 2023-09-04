@@ -1,14 +1,25 @@
 import React from "react";
-import ArrowDown from "/public/icons/arrow-down.png";
-import ArrowUp from "/public/icons/arrow-up.svg";
-import Image from "next/image";
 
 const Arrow = ({ Up, Down }) => {
   if (Up) {
-    return <Image alt="arrowup" src={ArrowUp} />;
+    return (
+      <img
+        alt="arrowup"
+        src={
+          "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/icons/arrow-down.png"
+        }
+      />
+    );
   }
   if (Down) {
-    return <Image alt="arrowdown" src={ArrowDown} />;
+    return (
+      <img
+        alt="arrowdown"
+        src={
+          "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/icons/arrow-up.svg"
+        }
+      />
+    );
   }
 
   // If neither Up nor Down props are provided, return null or some default content

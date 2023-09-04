@@ -9,8 +9,6 @@ import ScrollingCards from "/components/ScrollingCards";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
-import Image3 from "/public/images/hiringprocess/imagetimeline.jpg";
-import Image3Mobile from "/public/images/hiringprocess/imagetimeline_mobile.jpg";
 import Button from "@mui/material/Button";
 import Navbar from "/components/Navbar";
 
@@ -131,25 +129,29 @@ const HiringProcess = () => {
           </div>
         </div>
         {isXs ? (
-          <Image
+          <img
             className={styles.hiringImage}
             style={{
               height: "fit-content",
               display: "block",
               position: "relative",
             }}
-            src={Image3Mobile}
+            src={
+              "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/hiringprocess/imagetimeline_mobile.jpg"
+            }
             alt="hiringImage"
           />
         ) : (
-          <Image
+          <img
             className={styles.hiringImage}
             style={{
               height: "fit-content",
               display: "block",
               position: "relative",
             }}
-            src={Image3}
+            src={
+              "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/hiringprocess/imagetimeline.jpg"
+            }
             alt="hiringImage"
           />
         )}
@@ -318,14 +320,6 @@ const HiringProcess = () => {
           }}
         >
           Explore all tech jobs<span style={{ marginLeft: "4px" }}></span>
-          <Image
-            className={styles.openInNewIcon}
-            src="/icons/svgWhiteOpenInNewIcon.svg"
-            alt="Right"
-            marginLeft="12px"
-            width={16}
-            height={16}
-          />
         </button>
       </div>
 

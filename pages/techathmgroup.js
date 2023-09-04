@@ -126,27 +126,37 @@ const TechAtHmGroup = () => {
           <MeetColleaguesCard
             title={"shrutisree"}
             videoUrl={"https://youtu.be/TZbkBa90C00"}
-            thumbnailUrl={"/images/techathmgroup/imageshrutisree.jpg"}
+            thumbnailUrl={
+              "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageshrutisree.jpg"
+            }
           />
           <MeetColleaguesCard
             title={"saketh"}
             videoUrl={"https://youtu.be/bbVz5ngOh8A"}
-            thumbnailUrl={"/images/techathmgroup/imagesaketh.jpg"}
+            thumbnailUrl={
+              "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imagesaketh.jpg"
+            }
           />
           <MeetColleaguesCard
             title={"ramak"}
             videoUrl={"https://youtu.be/NFrp9lXVaoA"}
-            thumbnailUrl={"/images/techathmgroup/imageramak.jpg"}
+            thumbnailUrl={
+              "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageramak.jpg"
+            }
           />
           <MeetColleaguesCard
             title={"rajashekar"}
             videoUrl={"https://youtu.be/0odwYkPQo8s"}
-            thumbnailUrl={"/images/techathmgroup/imagerajasekhar.jpg"}
+            thumbnailUrl={
+              "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imagerajasekhar.jpg"
+            }
           />
           <MeetColleaguesCard
             title={"eilish"}
             videoUrl={"https://youtu.be/zaruKFneMuY"}
-            thumbnailUrl={"/images/techathmgroup/imageeilish.jpg"}
+            thumbnailUrl={
+              "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageeilish.jpg"
+            }
           />
         </ScrollingCards>
         <div
@@ -211,14 +221,6 @@ const TechAtHmGroup = () => {
           }}
         >
           Explore all tech jobs<span style={{ marginLeft: "4px" }}></span>
-          <Image
-            className={styles.openInNewIcon}
-            src="/icons/svgWhiteOpenInNewIcon.svg"
-            alt="Right"
-            marginLeft="12px"
-            width={16}
-            height={16}
-          />
         </button>
       </div>
 
@@ -247,9 +249,11 @@ const TechAtHmGroup = () => {
               className={styles.techAreaImageContainer}
               style={{ marginBottom: "20px" }}
             >
-              <Image
+              <img
                 style={{ objectFit: "cover" }}
-                src={"/images/techathmgroup/imageaianalyticsanddata.jpg"}
+                src={
+                  "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageaianalyticsanddata.jpg"
+                }
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
@@ -276,9 +280,11 @@ const TechAtHmGroup = () => {
               className={styles.techAreaImageContainer}
               style={{ marginBottom: "20px" }}
             >
-              <Image
+              <img
                 style={{ objectFit: "cover" }}
-                src={"/images/techathmgroup/imagecybersecurityandrisk.jpg"}
+                src={
+                  "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imagecybersecurityandrisk.jpg"
+                }
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
@@ -307,9 +313,11 @@ const TechAtHmGroup = () => {
               className={styles.techAreaImageContainer}
               style={{ marginBottom: "20px" }}
             >
-              <Image
+              <img
                 style={{ objectFit: "cover" }}
-                src={"/images/techathmgroup/imageoperations.jpg"}
+                src={
+                  "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageoperations.jpg"
+                }
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
@@ -336,9 +344,11 @@ const TechAtHmGroup = () => {
               className={styles.techAreaImageContainer}
               style={{ marginBottom: "20px" }}
             >
-              <Image
+              <img
                 style={{ objectFit: "cover" }}
-                src={"/images/techathmgroup/imagecoreplatforms.jpg"}
+                src={
+                  "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imagecoreplatforms.jpg"
+                }
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
@@ -366,9 +376,11 @@ const TechAtHmGroup = () => {
               className={styles.techAreaImageContainer}
               style={{ marginBottom: "20px" }}
             >
-              <Image
+              <img
                 style={{ objectFit: "cover" }}
-                src={"/images/techathmgroup/imageproductdevelopment.jpg"}
+                src={
+                  "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageproductdevelopment.jpg"
+                }
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
@@ -393,9 +405,11 @@ const TechAtHmGroup = () => {
               className={styles.techAreaImageContainer}
               style={{ marginBottom: "20px" }}
             >
-              <Image
+              <img
                 style={{ objectFit: "cover" }}
-                src={"/images/techathmgroup/imageuserexperiencedesign.jpg"}
+                src={
+                  "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageuserexperiencedesign.jpg"
+                }
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
@@ -420,9 +434,11 @@ const TechAtHmGroup = () => {
               className={styles.techAreaImageContainer}
               style={{ marginBottom: "20px" }}
             >
-              <Image
+              <img
                 style={{ objectFit: "cover" }}
-                src={"/images/techathmgroup/imageuserexperiencedesign.jpg"}
+                src={
+                  "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageuserexperiencedesign.jpg"
+                }
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
@@ -720,9 +736,9 @@ const TechAtHmGroup = () => {
         </h2>
         <Button variant="outlined" className="quickLinksButton">
           <h3 className="quickLinkText">Tech at H&M Group </h3>
-          <Image
+          <img
             className="quickLinksArrow"
-            src="/icons/arrow-left.svg"
+            src="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/icons/arrow-left.svg"
             alt="Right"
             width="24"
             height="24"
@@ -731,9 +747,9 @@ const TechAtHmGroup = () => {
 
         <Button variant="outlined" className="quickLinksButton">
           <h3 className="quickLinkText">FAQ</h3>
-          <Image
+          <img
             className="quickLinksArrow"
-            src="/icons/arrow-left.svg"
+            src="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/icons/arrow-left.svg"
             alt="Left"
             width="24"
             height="24"
@@ -865,14 +881,6 @@ const TechAtHmGroup = () => {
           }}
         >
           Explore all tech jobs<span style={{ marginLeft: "4px" }}></span>
-          <Image
-            className={styles.openInNewIcon}
-            src="/icons/svgWhiteOpenInNewIcon.svg"
-            alt="Right"
-            marginLeft="12px"
-            width={16}
-            height={16}
-          />
         </button>
       </div>
 

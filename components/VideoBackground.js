@@ -19,9 +19,9 @@ const VideoBackground = ({ videoUrl, posterUrl, title, cta }) => {
       {title && <h2 className={styles.title}>{title}</h2>}
       {cta && (
         <a className={styles["cta-button"]} href={cta.href}>
-          <p className={styles["cta-text"]}>{cta.text }    <span style={{marginLeft: "4px"}}></span>                       
-          <Image className= {styles.openInNewIcon} src = "/icons/svgWhiteOpenInNewIcon.svg" alt="Right" marginLeft= "12px" width= {16} height={16} />
-</p>
+          <p className={styles["cta-text"]}>
+            {cta.text} <span style={{ marginLeft: "4px" }}></span>
+          </p>
         </a>
       )}
     </div>

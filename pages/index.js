@@ -150,39 +150,39 @@ const HomePage = ({ imageTechAtHmGroup }) => {
           settings={departmentSliderSettings}
         >
           <DepartmentCard
-            imageUrl="/images/start/imagetaIanalyticsdata.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imagetaIanalyticsdata.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
             title="AI, Analytics & Data"
           />
           <DepartmentCard
-            imageUrl="/images/start/imagecybersecurityrisk.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imagecybersecurityrisk.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
             title="Cyber Security & Risk"
           />
           <DepartmentCard
-            imageUrl="/images/start/imageoperations.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageoperations.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
             title="Tech Operations"
           />
           <DepartmentCard
-            imageUrl="/images/start/imagecoreplatforms.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imagecoreplatforms.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
             title="Core Platforms"
           />
 
           <DepartmentCard
-            imageUrl="/images/start/imageproductdevelopmentengineering.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageproductdevelopmentengineering.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
             title="Product Development"
           />
 
           <DepartmentCard
-            imageUrl="/images/start/imageproductdevelopmentengineering.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageproductdevelopmentengineering.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
             title="Engineering & Architecture"
           />
           <DepartmentCard
-            imageUrl="/images/start/imageproductdevelopmentengineering.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageproductdevelopmentengineering.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
             title="User Experience Design"
           />
@@ -290,64 +290,64 @@ const HomePage = ({ imageTechAtHmGroup }) => {
         <ScrollingCards settings={scrollingCardsSettings1}>
           <LocationCard
             title="Atlanta"
-            imageUrl="/images/start/imageatlanta.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageatlanta.jpg"
             linkUrl=""
           />
           <LocationCard
             title="Bangalore"
-            imageUrl="/images/start/imagebangalore.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imagebangalore.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
           />
           <LocationCard
             title="Borås"
-            imageUrl="/images/start/imageboras.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageboras.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
           />
           <LocationCard
             title="Hong Kong"
-            imageUrl="/images/start/imagehongkong.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imagehongkong.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
           />
           <LocationCard
             title="Shanghai"
-            imageUrl="/images/start/imageshanghai.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageshanghai.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
           />
           <LocationCard
             title="Stockholm"
-            imageUrl="/images/start/imagestockholm.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imagestockholm.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
           />
         </ScrollingCards>
         <ScrollingCards settings={scrollingCardsSettings2}>
           <LocationCard
             title="Atlanta"
-            imageUrl="/images/start/imageatlanta.jpg"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageatlanta.jpg"
+            linkUrl=""
           />
           <LocationCard
             title="Bangalore"
-            imageUrl="/images/start/imagebangalore.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imagebangalore.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
           />
           <LocationCard
             title="Borås"
-            imageUrl="/images/start/imageboras.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageboras.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
           />
           <LocationCard
             title="Hong Kong"
-            imageUrl="/images/start/imagehongkong.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imagehongkong.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
           />
           <LocationCard
             title="Shanghai"
-            imageUrl="/images/start/imageshanghai.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageshanghai.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
           />
           <LocationCard
             title="Stockholm"
-            imageUrl="/images/start/imagestockholm.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imagestockholm.jpg"
             linkUrl="https://www2.hm.com/sv_se/index.html"
           />
         </ScrollingCards>
@@ -484,15 +484,5 @@ const HomePage = ({ imageTechAtHmGroup }) => {
     </div>
   );
 };
-
-// Added getServerSideProps function
-export async function getServerSideProps(context) {
-  // Fetch your image data here. For demonstration, I'm using a placeholder.
-  const imageTechAtHmGroup = "/images/start/techathmgroup.jpg";
-
-  return {
-    props: { imageTechAtHmGroup }, // will be passed to the page component as props
-  };
-}
 
 export default HomePage;

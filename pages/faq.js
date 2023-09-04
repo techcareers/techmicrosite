@@ -358,14 +358,6 @@ const FAQ = () => {
           }}
         >
           Explore all tech jobs <span style={{ marginLeft: "4px" }}></span>
-          <Image
-            className={styles.openInNewIcon}
-            src="/icons/svgWhiteOpenInNewIcon.svg"
-            alt="Right"
-            marginLeft="12px"
-            width={16}
-            height={16}
-          />
         </button>
       </div>
 
