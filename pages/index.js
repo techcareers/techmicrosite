@@ -378,38 +378,50 @@ const HomePage = ({ imageTechAtHmGroup }) => {
           <FeaturedJobsCard
             title="Cyber Defense Center Analyst"
             location="Stockholm"
-            jobFamily=""
+            jobFamily="H&M Group"
             linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999926451443-cyber-defense-center-analyst"
           />
           <FeaturedJobsCard
             title=".NET Software Engineer"
             location="Stockholm"
-            jobFamily=""
+            jobFamily="H&M Group"
             linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999927603883--net-software-engineer-to-the-afound-product-team"
           />
           <FeaturedJobsCard
             title="Solution Architect Insight"
             location="Stockholm"
-            jobFamily=""
+            jobFamily="H&M Group"
             linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999927822073-solution-architect-insight"
           />
           <FeaturedJobsCard
             title="Fullstack Software Engineer"
             location="Stockholm"
-            jobFamily=""
+            jobFamily="H&M Group"
             linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999927377593-fullstack-software-engineer-hiring-for-top-down-planning-team-product-offer-development-"
           />
           <FeaturedJobsCard
             title="Cyber Defense Center Analyst"
             location="Stockholm"
-            jobFamily=""
+            jobFamily="H&M Group"
             linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999926451443-cyber-defense-center-analyst"
           />
           <FeaturedJobsCard
             title=".NET Software Engineer"
             location="Stockholm"
-            jobFamily=""
+            jobFamily="H&M Group"
             linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999927603883--net-software-engineer-to-the-afound-product-team"
+          />
+          <FeaturedJobsCard
+            title="Solution Architect Insight"
+            location="Stockholm"
+            jobFamily="H&M Group"
+            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999927822073-solution-architect-insight"
+          />
+          <FeaturedJobsCard
+            title="Fullstack Software Engineer"
+            location="Stockholm"
+            jobFamily="H&M Group"
+            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999927377593-fullstack-software-engineer-hiring-for-top-down-planning-team-product-offer-development-"
           />
         </ScrollingCards>
         <div
