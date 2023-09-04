@@ -1,3 +1,20 @@
+.css-6jat1c {
+  text-transform: none;
+  font-family: HM Group Ampersand !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 21px !important;
+}
+.MuiButton-text {
+  text-transform: none !important;
+  font-family: HM Group Ampersand !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 21px !important;
+}
+
 /* Extra small devices (portrait phones, less than 375px) */
 @media (max-width: 375px) {
 }
