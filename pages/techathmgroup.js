@@ -249,7 +249,7 @@ const TechAtHmGroup = () => {
               style={{ marginBottom: "20px" }}
             >
               <img
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "cover", width: "100%", height: "100%" }}
                 src={
                   "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageaianalyticsanddata.jpg"
                 }
@@ -280,7 +280,7 @@ const TechAtHmGroup = () => {
               style={{ marginBottom: "20px" }}
             >
               <img
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "cover", width: "100%", height: "100%" }}
                 src={
                   "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imagecybersecurityandrisk.jpg"
                 }
@@ -313,7 +313,7 @@ const TechAtHmGroup = () => {
               style={{ marginBottom: "20px" }}
             >
               <img
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "cover", width: "100%", height: "100%" }}
                 src={
                   "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageoperations.jpg"
                 }
@@ -344,7 +344,7 @@ const TechAtHmGroup = () => {
               style={{ marginBottom: "20px" }}
             >
               <img
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "cover", width: "100%", height: "100%" }}
                 src={
                   "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imagecoreplatforms.jpg"
                 }
@@ -376,7 +376,7 @@ const TechAtHmGroup = () => {
               style={{ marginBottom: "20px" }}
             >
               <img
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "cover", width: "100%", height: "100%" }}
                 src={
                   "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageproductdevelopment.jpg"
                 }
@@ -405,7 +405,7 @@ const TechAtHmGroup = () => {
               style={{ marginBottom: "20px" }}
             >
               <img
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "cover", width: "100%", height: "100%" }}
                 src={
                   "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageuserexperiencedesign.jpg"
                 }
@@ -434,7 +434,7 @@ const TechAtHmGroup = () => {
               style={{ marginBottom: "20px" }}
             >
               <img
-                style={{ objectFit: "cover" }}
+                style={{ objectFit: "cover", width: "100%", height: "100%" }}
                 src={
                   "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageuserexperiencedesign.jpg"
                 }

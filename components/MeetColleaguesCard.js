@@ -6,7 +6,7 @@ const MeetColleaguesCard = ({ title, videoUrl, thumbnailUrl }) => {
     <a href={videoUrl} className={styles.card} target={"_blank"}>
       <div className={styles.imageContainer}>
         <img
-          style={{ objectFit: "contain" }}
+          style={{ objectFit: "contain", width: "100%", height: "100%" }}
           src={thumbnailUrl}
           alt={title}
           fill={true}

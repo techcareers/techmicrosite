@@ -23,7 +23,7 @@
 
 .navBarCta {
   color: #ffffff !important;
-  border-color: #000000 !important;
+  border-color: #ffffff !important;
   text-transform: none !important;
 
   font-family: HM Group Ampersand !important;
@@ -36,6 +36,8 @@
 .navBarCta:hover {
   color: #000000 !important;
   background-color: #ffffff !important;
+
+  border-color: #000000 !important;
 }
 
 .css-1q39md6-MuiButtonBase-root-MuiButton-root {
