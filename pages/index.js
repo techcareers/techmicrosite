@@ -109,7 +109,10 @@ const HomePage = ({ imageTechAtHmGroup }) => {
           videoUrl="../videos/hero-video.mp4"
           posterUrl="/images/start/techathmgroup.jpg"
           title="Join the future of fashion and lifestyle"
-          cta={{ text: "Explore our tech jobs", href: "www.hm.com" }}
+          cta={{
+            text: "Explore our tech jobs",
+            href: "https://careers.smartrecruiters.com/HMGroup/hmgrouptechcareers",
+          }}
         />
       </div>
       <div className="imageWithTextContainer" style={{ color: "#000000" }}>
@@ -368,51 +371,45 @@ const HomePage = ({ imageTechAtHmGroup }) => {
           Featured jobs
         </h2>
         <ScrollingCards
-          style={{ color: "red" }}
+          style={{ color: "red", whiteSpace: "break-spaces" }}
           ref={featuredJobsSliderRef}
           settings={featuredJobsSliderSettings}
         >
           <FeaturedJobsCard
-            title="Title 1"
-            location="Location 1"
-            jobFamily="Job Family 1"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
-          />
-          <FeaturedJobsCard
-            title="Senior Frontend Developer"
+            title="Cyber Defense Center Analyst"
             location="Stockholm"
-            jobFamily="Colleague & Corporate Support"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
+            jobFamily=""
+            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999926451443-cyber-defense-center-analyst"
           />
           <FeaturedJobsCard
-            title="Senior Backend Developer"
-            location="Location 3"
-            jobFamily="AI, Analytics & Data"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
-          />
-          <FeaturedJobsCard
-            title="Senior Frontend Developer"
+            title=".NET Software Engineer"
             location="Stockholm"
-            jobFamily="Colleague & Corporate Support"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
+            jobFamily=""
+            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999927603883--net-software-engineer-to-the-afound-product-team"
           />
           <FeaturedJobsCard
-            title="Title 5"
-            location="Location 5"
-            jobFamily="Job Family 5"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
+            title="Solution Architect Insight"
+            location="Stockholm"
+            jobFamily=""
+            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999927822073-solution-architect-insight"
           />
           <FeaturedJobsCard
-            title="Title 6"
-            location="Location 6"
-            jobFamily="Job Family 6"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
+            title="Fullstack Software Engineer"
+            location="Stockholm"
+            jobFamily=""
+            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999927377593-fullstack-software-engineer-hiring-for-top-down-planning-team-product-offer-development-"
           />
           <FeaturedJobsCard
-            title="Title 7"
-            location="Location 7"
-            jobFamily="Job Family 7"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
+            title="Cyber Defense Center Analyst"
+            location="Stockholm"
+            jobFamily=""
+            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999926451443-cyber-defense-center-analyst"
+          />
+          <FeaturedJobsCard
+            title=".NET Software Engineer"
+            location="Stockholm"
+            jobFamily=""
+            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999927603883--net-software-engineer-to-the-afound-product-team"
           />
         </ScrollingCards>
         <div
@@ -465,18 +462,20 @@ const HomePage = ({ imageTechAtHmGroup }) => {
             </svg>
           </button>
         </div>
-        <button
+        <a
           className="myButton2"
+          href="https://careers.smartrecruiters.com/HMGroup/hmgrouptechcareers"
           style={{
             display: "block",
             marginLeft: "auto",
             marginRight: "auto",
             marginTop: "20px",
             padding: "16px 32px",
+            maxWidth: "fit-content",
           }}
         >
           Explore all tech jobs
-        </button>
+        </a>
       </div>
       <div className="footerContainer">
         <Footer />

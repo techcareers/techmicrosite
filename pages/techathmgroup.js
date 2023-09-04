@@ -208,19 +208,20 @@ const TechAtHmGroup = () => {
             </svg>
           </button>
         </div>
-        <button
-          className="myButton"
+        <a
+          className="myButton2"
+          href="https://careers.smartrecruiters.com/HMGroup/hmgrouptechcareers"
           style={{
             display: "block",
             marginLeft: "auto",
             marginRight: "auto",
             marginTop: "20px",
-            border: "1px solid #000000",
             padding: "16px 32px",
+            maxWidth: "fit-content",
           }}
         >
-          Explore all tech jobs<span style={{ marginLeft: "4px" }}></span>
-        </button>
+          Explore all tech jobs
+        </a>
       </div>
 
       <div className={styles.ourTechAreasContainer} style={{}}>
@@ -746,11 +747,18 @@ const TechAtHmGroup = () => {
           />
         </Button>
 
-        <Button variant="outlined" className="quickLinksButton">
+        <Button
+          variant="outlined"
+          className="quickLinksButton"
+          href="/FAQ"
+          style={{
+            textAlign: "center",
+          }}
+        >
           <h3 className="quickLinkText">FAQ</h3>
-          <img
+          <Image
             className="quickLinksArrow"
-            src="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/icons/arrow-left.svg"
+            src="/icons/arrow-left.svg"
             alt="Left"
             width="24"
             height="24"
@@ -871,18 +879,20 @@ const TechAtHmGroup = () => {
             </svg>
           </button>
         </div>
-        <button
+        <a
           className="myButton2"
+          href="https://careers.smartrecruiters.com/HMGroup/hmgrouptechcareers"
           style={{
             display: "block",
             marginLeft: "auto",
             marginRight: "auto",
             marginTop: "20px",
             padding: "16px 32px",
+            maxWidth: "fit-content",
           }}
         >
-          Explore all tech jobs<span style={{ marginLeft: "4px" }}></span>
-        </button>
+          Explore all tech jobs
+        </a>
       </div>
 
       <div className="footerContainer">

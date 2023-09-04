@@ -212,7 +212,11 @@ const FAQ = () => {
         >
           Quick links
         </h2>
-        <Button variant="outlined" className="quickLinksButton">
+        <Button
+          variant="outlined"
+          className="quickLinksButton"
+          href="/techathmgroup"
+        >
           <h3 className="quickLinkText">Tech at H&M Group </h3>
           <Image
             className="quickLinksArrow"
@@ -223,7 +227,14 @@ const FAQ = () => {
           />
         </Button>
 
-        <Button variant="outlined" className="quickLinksButton">
+        <Button
+          variant="outlined"
+          className="quickLinksButton"
+          href="/FAQ"
+          style={{
+            textAlign: "center",
+          }}
+        >
           <h3 className="quickLinkText">FAQ</h3>
           <Image
             className="quickLinksArrow"
@@ -347,18 +358,20 @@ const FAQ = () => {
             </svg>
           </button>
         </div>
-        <button
+        <a
           className="myButton2"
+          href="https://careers.smartrecruiters.com/HMGroup/hmgrouptechcareers"
           style={{
             display: "block",
             marginLeft: "auto",
             marginRight: "auto",
             marginTop: "20px",
             padding: "16px 32px",
+            maxWidth: "fit-content",
           }}
         >
-          Explore all tech jobs <span style={{ marginLeft: "4px" }}></span>
-        </button>
+          Explore all tech jobs
+        </a>
       </div>
 
       <div className="footerContainer">
