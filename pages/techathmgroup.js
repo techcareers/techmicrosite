@@ -740,6 +740,7 @@ const TechAtHmGroup = () => {
           variant="outlined"
           className="quickLinksButton"
           href="/hiringprocess"
+          style={{ textAlign: "center" }}
         >
           <h3 className="quickLinkText">How we hire </h3>
           <img
@@ -754,7 +755,7 @@ const TechAtHmGroup = () => {
         <Button
           variant="outlined"
           className="quickLinksButton"
-          href="/FAQ"
+          href="/Faq"
           style={{
             textAlign: "center",
           }}
@@ -892,6 +893,7 @@ const TechAtHmGroup = () => {
         <a
           className="myButton2"
           href="https://careers.smartrecruiters.com/HMGroup/hmgrouptechcareers"
+          target="_blank"
           style={{
             display: "block",
             marginLeft: "auto",
