@@ -11,6 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 import Button from "@mui/material/Button";
 import Navbar from "/components/Navbar";
+import Link from "next/link";
 
 const HiringProcess = () => {
   const theme = useTheme();
@@ -89,43 +90,42 @@ const HiringProcess = () => {
             to the next step. <br /> <br />
             <h4 style={{ display: "contents" }}>Values interview </h4>
             <br />
-            After the phone interview, we want to make sure we connect based on
-            our values and see if you&apos;re a good fit for our H&M Group
-            culture. <br /> <br />
-            Tip: You can prepare by reading about our values and think of how
-            they apply to you. <br /> <br />
             After the phone interview, we want to understand how you live our
             values and connect to the essence of our organisational culture.
             This interview will be carried out by any of our colleagues across
-            the company specialised in values assessment. <br /> <br />
+            the company specialised in values assessment.  <br /> <br />
             Tip: You can prepare by reading about our values and think of how
-            they apply to you. (link to group value section) <br /> <br />
+            they apply to you.
+            <br /> <br />
+            <Link href="https://hmgroup.com/about-us/our-values/">
+              Link: Our values
+            </Link>
+            <br /> <br />
             <h4 style={{ display: "contents" }}>Competence assessment </h4>
             <br />
             The next step is to assess your skills. This lets us know if you
-            have the right competencies for the role. And, it&apos;s a good
+            have the right competencies for the role. And, it is a good
             opportunity for you to understand what to expect from the role.{" "}
             <br /> <br />
             The next step is to assess your role-specific skills. Depending on
-            what kind of role are you are being considered for, we&apos;ll have
-            standardized interviews, tests, or cases, designed to evaluate the
+            what kind of role are you are being considered for, we will have
+            standardised interviews, tests, or cases, designed to evaluate the
             proficiency level of your competences in relation to what is needed
             for the role. This interview will be carried out by functional
-            experts within the organisation. <br /> <br />
+            experts within the organisation. 
+            <br /> <br />
             <h4 style={{ display: "contents" }}>Role interview</h4> <br />
-            When you make it to this step, you&apos;ll get to meet the hiring
-            manager and learn more about the role and the team you might be
-            joining. <br /> <br />
-            You&apos;ll meet the hiring manager in this step and learn more
-            about the role and team. This interview is focused on understanding
-            how your match with the team—in which specific ways you add value to
+            You will meet the hiring manager in this step and learn more about
+            the role and team. This interview is focused on understanding how
+            your match with the team—in which specific ways you add value to
             their current set-up and complement existing members. This is also
             the moment for you to ask detailed questions you might have about
-            the position and context. <br /> <br />
+            the position and context. 
+            <br /> <br />
             <h4 style={{ display: "contents" }}>Offer </h4> <br />
-            The final step in the process is to formally offer you the role.
-            We&apos;ll discuss salary, start date, and everything else we need
-            to talk about to bring you on board to the H&M Group. <br />
+            The final step in the process is to formally offer you the role. We
+            will discuss salary, start date, and everything else we need to talk
+            about to bring you on board to H&M Group. <br />
           </div>
         </div>
         {isXs ? (
