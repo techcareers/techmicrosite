@@ -173,7 +173,11 @@ const HiringProcess = () => {
         >
           Quick links
         </h2>
-        <Button variant="outlined" className="quickLinksButton">
+        <Button
+          variant="outlined"
+          className="quickLinksButton"
+          href="/techathmgroup"
+        >
           <h3 className="quickLinkText">Tech at H&M Group </h3>
           <Image
             className="quickLinksArrow"
@@ -187,7 +191,7 @@ const HiringProcess = () => {
         <Button
           variant="outlined"
           className="quickLinksButton"
-          href="/FAQ"
+          href="/Faq"
           style={{
             textAlign: "center",
           }}

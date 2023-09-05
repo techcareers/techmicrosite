@@ -261,9 +261,9 @@ const TechAtHmGroup = () => {
             <p>
               AI/AD is all about making us become a fully data-driven company
               and that we have the right product in the right place, physically
-              or digitally. We’re making sure that all enterprise data is
+              or digitally. We are making sure that all enterprise data is
               accessible at scale, scaling machine learning capabilities across
-              the enterprise.
+              the company.
             </p>
           </AccordionDetails>
         </Accordion>
@@ -290,11 +290,11 @@ const TechAtHmGroup = () => {
               />
             </div>
             <p>
-              We empower the H&M group to achieve the right level of information
-              and cyber security to protect our customers, business, and
-              ecosystem in a value driven and sustainable way. Together we
-              manage our core security capabilities, build a culture of
-              security, enable teams to create secure tech, and detect and
+              Cyber Security & Risk empowers H&M Group to achieve the right
+              level of information and cyber security to protect our customers,
+              business, and ecosystem in a value driven and sustainable way.
+              Together we manage our core security capabilities, build a culture
+              of security, enable teams to create secure tech, and detect and
               manage threats.
             </p>
           </AccordionDetails>
@@ -323,10 +323,10 @@ const TechAtHmGroup = () => {
               />
             </div>
             <p>
-              Our mission is to use our global scale to deliver optimised and
-              relevant services 24/7 to make sure we deliver on our business
-              outcomes. We make sure all systems and services exceed business
-              needs, i.e., that they’re stable and available, as well as
+              Tech Ops mission is to use our global scale to deliver optimised
+              and relevant services 24/7 to make sure we deliver on our business
+              outcomes. We ensure all systems and services exceed business
+              needs, i.e., that they are stable and available, as well as
               cost-efficient and of high quality.
             </p>
           </AccordionDetails>
@@ -355,11 +355,12 @@ const TechAtHmGroup = () => {
             </div>
             <p>
               We make sure that platforms are stable, reliable, scalable, and
-              fit for purpose. We provide best-in- class engineering services
-              that improves our speed-to-market, flexibility, and scalability by
-              providing frictionless technology with self-service capabilities
-              and empowering product teams for delivery leveraging a
-              foundational and standardised set of core platforms.
+              fit for purpose. Core Platforms provides best-in- class
+              engineering services that improves our speed-to-market,
+              flexibility, and scalability by providing frictionless technology
+              with self-service capabilities and empowering product teams for
+              delivery leveraging a foundational and standardised set of core
+              platforms.
             </p>
           </AccordionDetails>
         </Accordion>
@@ -386,9 +387,14 @@ const TechAtHmGroup = () => {
               />
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              The Product Development team is responsible for conceiving,
+              designing, developing, and launching new products or improving
+              existing ones. The team consists of individuals with diverse
+              skills and expertise who collaborate to bring a product from
+              concept to release, developing delivering, and iterating on
+              different streams. We work collaboratively to transform ideas into
+              tangible products that meet customer needs, drive business growth,
+              and adapt to evolving market dynamics.
             </p>
           </AccordionDetails>
         </Accordion>
@@ -415,9 +421,16 @@ const TechAtHmGroup = () => {
               />
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Suspendisse malesuada lacus ex, sit amet blandit leo lobortis
-              eget.
+              We utilise popular front-end frameworks and libraries to create
+              responsive and engaging user interfaces for our websites, mobile
+              applications, and other customer-facing platforms. We aim to
+              create intuitive and feature-rich experiences for our customers on
+              their smartphones and tablets.
+              <br />
+              Our back-end development relies on robust programming languages
+              and frameworks. We leverage these technologies to build scalable
+              and secure server-side applications that power our e-commerce
+              platforms, APIs, and internal systems.
             </p>
           </AccordionDetails>
         </Accordion>
@@ -460,7 +473,7 @@ const TechAtHmGroup = () => {
           className="reImagineTitle"
           style={{ color: "#000000", paddingBottom: "16px" }}
         >
-          We are harnessing the power of tech and data with digitalisation
+          We are harnessing the power of tech and data
         </h2>
         <img
           className={styles.ourAreasImage}
@@ -488,15 +501,15 @@ const TechAtHmGroup = () => {
               modernising our tech and embedding digital, tech, and data into
               everything we do. Our goal is clear - bring tech closer to the
               business so that we can continue to make great design available to
-              everyone, in a more sustainable way. Our goal is clear - bring
-              tech closer to the business so that we can continue to make great
-              design available to everyone, in a more sustainable way. We are
-              actively improving ways of working, delivery models, and our tech
-              landscape to future-proof and modernise our tech. By transforming
-              our technology landscape, we create new opportunities in terms of
-              data, speed, security, and operations. To accomplish this, we need
-              to be more specialized, increasing positions connected to
-              designing and engineering our products, services, and data.
+              everyone, in a more sustainable way.
+              <br />
+              We are actively improving ways of working, delivery models, and
+              our tech landscape to future-proof and modernise our tech. By
+              transforming our technology landscape, we create new opportunities
+              in terms of data, speed, security, and operations. To accomplish
+              this, we need to be more specialised, increasing positions
+              connected to designing and engineering our products, services, and
+              data.
             </p>
           </AccordionDetails>
         </Accordion>
@@ -510,22 +523,17 @@ const TechAtHmGroup = () => {
           </AccordionSummary>
           <AccordionDetails>
             <p>
-              To meet the expectations of our current and future customers,
-              we’re transforming our tech landscape. We create new opportunities
+              To meet the expectations of our current and future customers, we
+              are transforming our tech landscape. We create new opportunities
               regarding data insights, speed, cyber security, and operations.
               Our technology landscape will consist of composable services of
               varying sizes to be fit for purpose. It will be entirely
-              cloud-based and have automated environments. To meet the
-              expectations of our current and future customers, we’re
-              transforming our tech landscape. We create new opportunities
-              regarding data insights, speed, cyber security, and operations.
-              Our technology landscape will consist of composable services of
-              varying sizes to be fit for purpose. It will be entirely
-              cloud-based and have automated environments. Our tech stack is
-              dynamic and evolves alongside technological advancements and
-              industry trends. We continuously explore new technologies,
-              evaluate emerging tools, and invest in infrastructure to stay at
-              the forefront of digital innovation.
+              cloud-based and have automated environments.
+              <br />
+              Our tech stack is dynamic and evolves alongside technological
+              advancements and industry trends. We continuously explore new
+              technologies, evaluate emerging tools, and invest in
+              infrastructure to stay at the forefront of digital innovation.
             </p>
           </AccordionDetails>
         </Accordion>
@@ -546,7 +554,7 @@ const TechAtHmGroup = () => {
               has its unique complexity and a global scale. You are immersed in
               a welcoming culture where psychological safety and collaboration
               are key to success. Our teams are empowered to act, learn, and
-              adapt with speed to create results together.{" "}
+              adapt with speed to create results together.
             </p>
           </AccordionDetails>
         </Accordion>
@@ -564,11 +572,10 @@ const TechAtHmGroup = () => {
           Our culture and values
         </h2>
         <p style={{ width: "576px", color: "#000000" }}>
-          Our values are in everything we do. They’re our guiding light. It’s
-          how we act, what we stand for. By living our values everyday, we
-          create an open and down-to-earth culture. A culture that inspires us
-          to work together, to do what matters most to our customers and our
-          future. 
+          Our values are part of who we are, what we stand for, and how we act.
+          By living our values, we create an open and down-to-earth culture
+          where we can work together to do best what matters most to our
+          customers and our future.
         </p>
         <div className={styles.ourValues} style={{ margin: "50px 0px" }}>
           <h3 style={{ color: "#000000" }}> We are one team</h3>
@@ -628,16 +635,16 @@ const TechAtHmGroup = () => {
           </AccordionSummary>
           <AccordionDetails>
             <p>
-              We&apos;re serious about learning because we know that when you
-              grow, we all grow. Continuous learning is important to us and we
-              always focus on &apos;just in time&apos;-learning. That&apos;s why
-              all our colleagues get extensive learning opportunities. We offer
-              a variety of on and offline learning and training opportunities.
-              Our digital learning platform offers self-paced and instructor-led
-              learning opportunities across subjects such as sustainability,
-              leadership, business development, AI, customer centricity,
-              personal development, inclusion and diversity, role specific and
-              more.
+              We are serious about learning because we know that when you grow,
+              we all grow. Continuous learning is important to us and we always
+              focus on &apos;just in time&apos;-learning. That&apos;s why all
+              our colleagues get extensive learning opportunities. <br /> We
+              offer a variety of on and offline learning and training
+              opportunities. Our digital learning platform offers self-paced and
+              instructor-led learning opportunities across subjects such as
+              sustainability, leadership, business development, AI, customer
+              centricity, personal development, inclusion and diversity, role
+              specific and more.
             </p>
           </AccordionDetails>
         </Accordion>
@@ -652,12 +659,12 @@ const TechAtHmGroup = () => {
           </AccordionSummary>
           <AccordionDetails>
             <p>
-              We know that our colleagues are key to our success. That’s why we
-              have created HIP - the H&M Incentive Program. When you’ve been a
+              We know that our colleagues are key to our success. That is why we
+              have created HIP - the H&M Incentive Program. When you have been a
               part of our company for 5 years, you get a share in the profits
-              made by H&M Group. The longer you stay, the more you’ll get. It’s
-              that simple and is the same for everyone in the H&M group, in all
-              countries, regardless of position, salary, or contract of
+              made by H&M Group. The longer you stay, the more you will get. It
+              is that simple and is the same for everyone in the H&M Group, in
+              all countries, regardless of position, salary, or contract of
               employment.
             </p>
           </AccordionDetails>
@@ -673,7 +680,7 @@ const TechAtHmGroup = () => {
           </AccordionSummary>
           <AccordionDetails>
             <p>
-              You’ll be invited to join our internal tech community
+              You will be invited to join our internal tech community
               &lt;/techSpot&gt;, where we share, learn, and connect around all
               things tech. We also have many colleague-driven communities around
               the world, like sports, mindfulness, choir, and many more.
@@ -692,10 +699,10 @@ const TechAtHmGroup = () => {
           <AccordionDetails>
             <p>
               To do our best work, we all need a healthy balance in our lives.
-              How we achieve that balance is different for all of us.
-              That&apos;s why we believe in a mix of working from home and
-              joining up in our inspirational offices regularly. We let you and
-              your team find the way you work best.{" "}
+              How we achieve that balance is different for all of us. That is
+              why we believe in a mix of working from home and joining up in our
+              inspirational offices regularly. We let you and your team find the
+              way you work best.{" "}
             </p>
           </AccordionDetails>
         </Accordion>
@@ -711,10 +718,36 @@ const TechAtHmGroup = () => {
           <AccordionDetails>
             <p>
               We have a culture that celebrates successes, milestones, and new
-              learnings together. We regularly do Hackathons and ideation cups
-              to recognise individuals and team contributions. Every year, we
-              also recognise colleagues all around the world who put our company
-              values into action, with the Erling Persson award.
+              learnings together. We regularly do hackathons and ideation cups
+              to recognise individuals and team contributions. <br /> Every
+              year, we also recognise colleagues all around the world who put
+              our company values into action, with the Erling Persson award.
+            </p>
+          </AccordionDetails>
+        </Accordion>
+        <Accordion square={true} style={{}}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <h3 style={{ color: "#000000" }}>Colleague Resource Groups</h3>
+          </AccordionSummary>
+          <AccordionDetails>
+            <p>
+              We believe in a diverse and inclusive workplace. That is why we
+              support all our Colleague Resource Groups (CRGs). Led by you, for
+              you, the different CRGs are a safe space for you to meet, share,
+              and learn from each other. <br /> <br />
+              Some of our CRGs
+              <br />
+              The Collective: CRG for People of Colour <br />
+              LGBTQIA+ Advocacy <br />
+              People with Disability <br />
+              Mental Health Awareness <br />
+              Women in Empower <br />
+              Internationals in Stockholm <br />
+              <br />
             </p>
           </AccordionDetails>
         </Accordion>

@@ -231,16 +231,14 @@ const FAQ = () => {
         <Button
           variant="outlined"
           className="quickLinksButton"
-          href="/FAQ"
-          style={{
-            textAlign: "center",
-          }}
+          href="/hiringprocess"
+          style={{ textAlign: "center" }}
         >
-          <h3 className="quickLinkText">FAQ</h3>
-          <Image
+          <h3 className="quickLinkText">How we hire </h3>
+          <img
             className="quickLinksArrow"
-            src="/icons/arrow-left.svg"
-            alt="Left"
+            src="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/icons/arrow-left.svg"
+            alt="Right"
             width="24"
             height="24"
           />
