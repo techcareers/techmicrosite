@@ -18,7 +18,7 @@ const VideoBackground = ({ videoUrl, posterUrl, title, cta }) => {
       </video>
       {title && <h2 className={styles.title}>{title}</h2>}
       {cta && (
-        <a className={styles["cta-button"]} href={cta.href}>
+        <a className={styles["cta-button"]} href={cta.href} target="_blank">
           <p className={styles["cta-text"]}>
             {cta.text} <span style={{ marginLeft: "4px" }}></span>
           </p>

@@ -63,7 +63,7 @@ const Footer = () => {
                 className={styles.ctaButton}
                 onClick={(e) => {
                   e.preventDefault();
-                  window.location.href = "https://smrtr.io/fmS8P";
+                  window.open("https://smrtr.io/fmS8P", "_blank");
                 }}
               >
                 Connect with us
@@ -71,7 +71,10 @@ const Footer = () => {
             </div>
             <div className={styles.careerDiv}>
               <h6 className={styles.careerTitle}>Careers</h6>
-              <Link href="https://hmgroup.com/career/find-your-career-with-us/">
+              <Link
+                href="https://hmgroup.com/career/find-your-career-with-us/"
+                target="_blank"
+              >
                 {" "}
                 <p className={styles.careerText}>
                   Explore all jobs within H&M Group{" "}
@@ -80,13 +83,16 @@ const Footer = () => {
             </div>
             <div className={styles.linksDiv}>
               <h6 className={styles.linksTitle}>The H&M Group</h6>
-              <Link href="https://hmgroup.com/">
+              <Link href="https://hmgroup.com/" target="_blank">
                 <p>Explore the Group</p>
               </Link>
-              <Link href="https://hmgroup.com/sustainability/">
+              <Link href="https://hmgroup.com/sustainability/" target="_blank">
                 <p>Sustainability</p>
               </Link>
-              <Link href="https://hmgroup.com/media/our-stories/">
+              <Link
+                href="https://hmgroup.com/media/our-stories/"
+                target="_blank"
+              >
                 <p>Our stories</p>
               </Link>
             </div>
@@ -97,7 +103,7 @@ const Footer = () => {
               Copyright © 2023 H&M Group. All rights reserved.
             </p>
             <div className={styles.footerSocials}>
-              <Link href="https://www.youtube.com/c/HMGroup">
+              <Link href="https://www.youtube.com/c/HMGroup" target="_blank">
                 <svg
                   className={styles.ytLogo}
                   width="26"
@@ -120,7 +126,10 @@ const Footer = () => {
                   />
                 </svg>
               </Link>
-              <Link href="https://www.linkedin.com/company/hmgroup/">
+              <Link
+                href="https://www.linkedin.com/company/hmgroup/"
+                target="_blank"
+              >
                 <svg
                   className={styles.liLogo}
                   width="26"
@@ -190,10 +199,11 @@ const Footer = () => {
           <div className={styles.mobileFooterLinks}>
             <div className={styles.mobileCtaDiv}>
               <button
+                target="_blank"
                 className={styles.mobileCtaButton}
                 onClick={(e) => {
                   e.preventDefault();
-                  window.location.href = "https://smrtr.io/fmS8P";
+                  window.open("https://smrtr.io/fmS8P", "_blank");
                 }}
               >
                 Connect with us
@@ -210,13 +220,16 @@ const Footer = () => {
             </div>
             <div className={styles.mobileLinksDiv}>
               <h6 className={styles.mobileLinksTitle}>The H&M Group</h6>
-              <Link href="https://hmgroup.com/">
+              <Link href="https://hmgroup.com/" target="_blank">
                 <p>Explore the Group</p>
               </Link>
-              <Link href="https://hmgroup.com/sustainability/">
+              <Link href="https://hmgroup.com/sustainability/" target="_blank">
                 <p>Sustainability</p>
               </Link>
-              <Link href="https://hmgroup.com/media/our-stories/">
+              <Link
+                href="https://hmgroup.com/media/our-stories/"
+                target="_blank"
+              >
                 <p>Our stories</p>
               </Link>
             </div>
@@ -227,7 +240,7 @@ const Footer = () => {
               Copyright © 2023 H&M Group. <br /> All rights reserved.
             </p>
             <div className={styles.mobileFooterSocials}>
-              <Link href="https://www.youtube.com/c/HMGroup">
+              <Link href="https://www.youtube.com/c/HMGroup" target="_blank">
                 <svg
                   className={styles.mobileYtLogo}
                   width="26"
@@ -250,7 +263,10 @@ const Footer = () => {
                   />
                 </svg>
               </Link>
-              <Link href="https://www.linkedin.com/company/hmgroup/">
+              <Link
+                href="https://www.linkedin.com/company/hmgroup/"
+                target="_blank"
+              >
                 <svg
                   className={styles.mobileLiLogo}
                   width="26"

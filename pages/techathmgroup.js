@@ -736,8 +736,12 @@ const TechAtHmGroup = () => {
         >
           Quick links
         </h2>
-        <Button variant="outlined" className="quickLinksButton">
-          <h3 className="quickLinkText">Tech at H&M Group </h3>
+        <Button
+          variant="outlined"
+          className="quickLinksButton"
+          href="/hiringprocess"
+        >
+          <h3 className="quickLinkText">How we hire </h3>
           <img
             className="quickLinksArrow"
             src="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/icons/arrow-left.svg"

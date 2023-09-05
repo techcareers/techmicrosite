@@ -154,39 +154,39 @@ const HomePage = ({ imageTechAtHmGroup }) => {
         >
           <DepartmentCard
             imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imagetaIanalyticsdata.jpg"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
+            linkUrl="/techathmgroup"
             title="AI, Analytics & Data"
           />
           <DepartmentCard
             imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imagecybersecurityrisk.jpg"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
+            linkUrl="/techathmgroup"
             title="Cyber Security & Risk"
           />
           <DepartmentCard
             imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageoperations.jpg"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
+            linkUrl="/techathmgroup"
             title="Tech Operations"
           />
           <DepartmentCard
             imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imagecoreplatforms.jpg"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
+            linkUrl="/techathmgroup"
             title="Core Platforms"
           />
 
           <DepartmentCard
             imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageproductdevelopmentengineering.jpg"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
+            linkUrl="/techathmgroup"
             title="Product Development"
           />
 
           <DepartmentCard
             imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageproductdevelopmentengineering.jpg"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
+            linkUrl="/techathmgroup"
             title="Engineering & Architecture"
           />
           <DepartmentCard
             imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageproductdevelopmentengineering.jpg"
-            linkUrl="https://www2.hm.com/sv_se/index.html"
+            linkUrl="/techathmgroup"
             title="User Experience Design"
           />
         </ScrollingCards>
@@ -228,17 +228,20 @@ const HomePage = ({ imageTechAtHmGroup }) => {
             />{" "}
           </button>
         </div>
-        <button
+        <a
+          href="/techathmgroup"
           style={{
             width: "148px",
             height: "57px",
             display: "block",
             margin: "32px auto",
+            textAlign: "center",
+            padding: "15px",
           }}
           className="carousel-cta myButton"
         >
           View all tech areas
-        </button>
+        </a>
       </div>
       <div
         className="allAroundTheWorldContainer"
@@ -477,6 +480,7 @@ const HomePage = ({ imageTechAtHmGroup }) => {
         <a
           className="myButton2"
           href="https://careers.smartrecruiters.com/HMGroup/hmgrouptechcareers"
+          target="_blank"
           style={{
             display: "block",
             marginLeft: "auto",
