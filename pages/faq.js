@@ -16,6 +16,7 @@ import FeaturedJobsCard from "/components/FeaturedJobsCard";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Navbar from "/components/Navbar";
+import Link from "next/link";
 
 const FAQ = () => {
   const theme = useTheme();
@@ -90,10 +91,29 @@ const FAQ = () => {
           </AccordionSummary>
           <AccordionDetails>
             <p>
-              Don&apos;t worry, we post new jobs all the time. You can subscribe
-              to be the first to know about new opportunities and our latest
-              news.
+              Do not worry, we post new jobs all the time. You can subscribe to
+              be the first to know about new opportunities and our latest news
+              or follow us on LinkedIn for the latest. <br />
+              <br />
             </p>
+            <Link
+              style={{ display: "inlineBlock" }}
+              href="https://www.linkedin.com/company/hmgroup"
+              target="_blank"
+            >
+              {" "}
+              H&M Group LinkedIn
+            </Link>
+            <br />
+            <br />
+            <Link
+              style={{ display: "inlineBlock" }}
+              href="https://www.linkedin.com/company/h&m"
+              target="_blank"
+            >
+              {" "}
+              H&M LinkedIn
+            </Link>
           </AccordionDetails>
         </Accordion>
         <Accordion square={true}>
@@ -111,19 +131,45 @@ const FAQ = () => {
           </AccordionSummary>
           <AccordionDetails>
             <p>
-              We’re on a journey to harness the power of technology and data to
-              change the world of fashion and lifestyle. If you want to be part
-              of that change and make a difference on a global scale, then H&M
-              Group is the right place for you. We are evolving our tech
-              organisation to be future ready all the time and to become more
-              focused, flexible, faster, and efficient. We are on a journey to
-              harness the power of tech & data and the road to the goal is not
-              yet paved. The future of fashion and lifestyle needs creative
-              doers with technical excellence. We know we need the right skills,
-              in the right place, at the right time. If you are looking to make
-              an impact and be the difference that make a difference, now is
-              just the right time to join H&M Group.
-            </p>
+              We are evolving our tech organisation to be future ready all the
+              time and to become more focused, flexible, faster, and efficient.
+              We are on a journey to harness the power of tech & data and the
+              road to the goal is not yet paved. The future of fashion and
+              lifestyle needs creative doers with technical excellence. We know
+              we need the right skills, in the right place, at the right time.
+              If you are looking to make an impact and be the difference that
+              make a difference, now is just the right time to join H&M Group.
+            </p>{" "}
+          </AccordionDetails>
+        </Accordion>
+        <Accordion square={true}>
+          <AccordionSummary
+            expandIcon={<ExpandMoreIcon />}
+            aria-controls="panel1a-content"
+            id="panel1a-header"
+          >
+            <h4
+              className={styles.faqQuestionTitle}
+              style={{ color: "#000000" }}
+            >
+              How do you work within your tech organisation?
+            </h4>
+          </AccordionSummary>
+          <AccordionDetails>
+            <p>
+              Tech development is executed and funded through value streams. A
+              value stream is a process that combines people and tech solutions
+              in an end-to-end responsibility to create value for our customers
+              or colleagues. Value streams are responsible for running, growing,
+              and transforming our tech. <br />
+              We recognize that we have varied tech products (digital,
+              platforms, services), since one size does not fit all. We will
+              work Agile/Lean/Hybrid based on the technology architecture and
+              types of work being done. <br />
+              Parts of our organisation works in adaptable teams. Adaptable
+              Teaming is about organising our technical competences and skills
+              around prioritised business needs to solve pain points.
+            </p>{" "}
           </AccordionDetails>
         </Accordion>
         <Accordion square={true}>
@@ -145,7 +191,7 @@ const FAQ = () => {
               adapt to a set-up based on the needs of the business, department,
               and the individual. However, this policy varies between different
               locations. In Sweden, we have an average of 4 days a week in the
-              office.
+              office.{" "}
             </p>
           </AccordionDetails>
         </Accordion>
@@ -168,8 +214,14 @@ const FAQ = () => {
               H&M Group is a safe and welcoming place where collaboration is the
               key to success. We want all our colleagues to feel empowered to
               act, learn, and adapt, so we can continue to succeed together as
-              one team.{" "}
-            </p>
+              one team. By living our values, we create an open and
+              down-to-earth culture where we can work together to do best what
+              matters most to our customers and our future. <br />
+            </p>{" "}
+            <br />
+            <Link href="https://hmgroup.com/about-us/our-values/">
+              Read more about our values here
+            </Link>
           </AccordionDetails>
         </Accordion>
         <Accordion square={true}>

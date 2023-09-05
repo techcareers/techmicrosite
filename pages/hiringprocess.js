@@ -98,7 +98,7 @@ const HiringProcess = () => {
             they apply to you.
             <br /> <br />
             <Link href="https://hmgroup.com/about-us/our-values/">
-              Link: Our values
+              Read more about our values here
             </Link>
             <br /> <br />
             <h4 style={{ display: "contents" }}>Competence assessment </h4>
