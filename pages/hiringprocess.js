@@ -177,6 +177,9 @@ const HiringProcess = () => {
           variant="outlined"
           className="quickLinksButton"
           href="/techathmgroup"
+          style={{
+            textAlign: "center",
+          }}
         >
           <h3 className="quickLinkText">Tech at H&M Group </h3>
           <Image

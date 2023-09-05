@@ -102,7 +102,19 @@ const FAQ = () => {
               target="_blank"
             >
               {" "}
-              H&M Group LinkedIn
+              H&M Group LinkedIn{" "}
+              <img
+                style={{
+                  objectFit: "cover",
+                  width: "16px",
+                  height: "16px",
+                  marginLeft: "3px",
+                }}
+                src={
+                  "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/icons/OpenInNewIcon.png"
+                }
+                alt="OpenInNewIcon"
+              />
             </Link>
             <br />
             <br />
@@ -113,6 +125,18 @@ const FAQ = () => {
             >
               {" "}
               H&M LinkedIn
+              <img
+                style={{
+                  objectFit: "cover",
+                  width: "16px",
+                  height: "16px",
+                  marginLeft: "3px",
+                }}
+                src={
+                  "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/icons/OpenInNewIcon.png"
+                }
+                alt="OpenInNewIcon"
+              />
             </Link>
           </AccordionDetails>
         </Accordion>
@@ -220,7 +244,19 @@ const FAQ = () => {
             </p>{" "}
             <br />
             <Link href="https://hmgroup.com/about-us/our-values/">
-              Read more about our values here
+              Read more about our values here{" "}
+              <img
+                style={{
+                  objectFit: "cover",
+                  width: "16px",
+                  height: "16px",
+                  marginLeft: "3px",
+                }}
+                src={
+                  "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/icons/OpenInNewIcon.png"
+                }
+                alt="OpenInNewIcon"
+              />
             </Link>
           </AccordionDetails>
         </Accordion>
