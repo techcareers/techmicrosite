@@ -15,6 +15,7 @@ import "slick-carousel/slick/slick-theme.css";
 import FeaturedJobsCard from "/components/FeaturedJobsCard";
 import Footer from "/components/Footer";
 import Navbar from "/components/Navbar";
+import Link from "next/link";
 
 /* 
 
@@ -228,7 +229,7 @@ const HomePage = ({ imageTechAtHmGroup }) => {
             />{" "}
           </button>
         </div>
-        <a
+        <Link
           href="/techathmgroup"
           style={{
             width: "148px",
@@ -241,7 +242,7 @@ const HomePage = ({ imageTechAtHmGroup }) => {
           className="carousel-cta myButton"
         >
           View all tech areas
-        </a>
+        </Link>
       </div>
       <div
         className="allAroundTheWorldContainer"
