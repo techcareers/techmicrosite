@@ -382,6 +382,7 @@ const TechAtHmGroup = () => {
                 src={
                   "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageproductdevelopment.jpg"
                 }
+                g
                 alt="imageaianalyticsanddata"
                 fill={true}
               />
@@ -414,7 +415,7 @@ const TechAtHmGroup = () => {
               <img
                 style={{ objectFit: "cover", width: "100%", height: "100%" }}
                 src={
-                  "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/techathmgroup/imageuserexperiencedesign.jpg"
+                  "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageproductdevelopmentengineering.jpg"
                 }
                 alt="imageaianalyticsanddata"
                 fill={true}
@@ -468,7 +469,12 @@ const TechAtHmGroup = () => {
         </Accordion>
       </div>
 
-      <div className={styles.reImagineContainer} style={{}}>
+      <div
+        className={styles.reImagineContainer}
+        style={{
+          textAlign: "left",
+        }}
+      >
         <h2
           className="reImagineTitle"
           style={{ color: "#000000", paddingBottom: "16px" }}
@@ -486,7 +492,11 @@ const TechAtHmGroup = () => {
 
         <Accordion
           square={true}
-          style={{ borderTop: "1px solid black", marginTop: "20px" }}
+          style={{
+            borderTop: "1px solid black",
+            marginTop: "20px",
+            textAlign: "left",
+          }}
         >
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
@@ -502,7 +512,7 @@ const TechAtHmGroup = () => {
               everything we do. Our goal is clear - bring tech closer to the
               business so that we can continue to make great design available to
               everyone, in a more sustainable way.
-              <br />
+              <br /> <br />
               We are actively improving ways of working, delivery models, and
               our tech landscape to future-proof and modernise our tech. By
               transforming our technology landscape, we create new opportunities
@@ -529,7 +539,7 @@ const TechAtHmGroup = () => {
               Our technology landscape will consist of composable services of
               varying sizes to be fit for purpose. It will be entirely
               cloud-based and have automated environments.
-              <br />
+              <br /> <br />
               Our tech stack is dynamic and evolves alongside technological
               advancements and industry trends. We continuously explore new
               technologies, evaluate emerging tools, and invest in

@@ -49,7 +49,7 @@ const HomePage = ({ imageTechAtHmGroup }) => {
     infinite: true,
     arrows: true,
     speed: 1000,
-    slidesToShow: isXs ? 1 : isSm ? 2.5 : 4,
+    slidesToShow: isXs ? 1.15 : isSm ? 2.5 : 4,
     slidesToScroll: 1,
     autoplay: false,
   };
@@ -138,17 +138,7 @@ const HomePage = ({ imageTechAtHmGroup }) => {
         >
           Explore our tech areas
         </h2>
-        {/* <h4
-          style={{
-            color: "#2c2c2c",
-            margin: "auto",
-            display: "block",
-            width: "fit-content",
-            marginBottom: "40px",
-          }}
-        >
-          Explore our tech areas
-        </h4> */}
+
         <ScrollingCards
           ref={departmentSliderRef}
           settings={departmentSliderSettings}
@@ -175,7 +165,7 @@ const HomePage = ({ imageTechAtHmGroup }) => {
           />
 
           <DepartmentCard
-            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageproductdevelopmentengineering.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageproductdevelopment.jpg"
             linkUrl="/techathmgroup"
             title="Product Development"
           />
@@ -186,7 +176,7 @@ const HomePage = ({ imageTechAtHmGroup }) => {
             title="Engineering & Architecture"
           />
           <DepartmentCard
-            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageproductdevelopmentengineering.jpg"
+            imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/imageuserexperience.jpg"
             linkUrl="/techathmgroup"
             title="User Experience Design"
           />

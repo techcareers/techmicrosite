@@ -243,7 +243,10 @@ const FAQ = () => {
               matters most to our customers and our future. <br />
             </p>{" "}
             <br />
-            <Link href="https://hmgroup.com/about-us/our-values/">
+            <Link
+              href="https://hmgroup.com/about-us/our-values/"
+              target="_blank"
+            >
               Read more about our values here{" "}
               <img
                 style={{

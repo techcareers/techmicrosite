@@ -65,7 +65,7 @@
 .cta-text {
   width: 124px;
   height: 21px;
-  font-family: 'HM Group Ampersand', Helvetica, sans-serif;
+  font-family: "HM Group Ampersand", Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -94,21 +94,25 @@
 /* Extra small devices (portrait phones, less than 375px) */
 @media (max-width: 375px) {
   .title {
-
     width: 311px;
-margin: 0 32px;
+    margin: 0 32px;
     margin-left: 32px;
     margin-right: 0;
     font-family: HM Group Ampersand;
-font-size: 46px;
-font-style: normal;
-font-weight: 300;
-line-height: 55.996px; 
-letter-spacing: -0.32px;
-}
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 55.996px;
+    letter-spacing: -0.32px;
+  }
 
-
-  
+  .cta-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px; /* 150% */
+    margin: auto;
+  }
 
   .cta-button {
     width: 311px;
@@ -120,7 +124,7 @@ letter-spacing: -0.32px;
 /* Small devices (landscape phones, 376px to 768px) */
 @media (min-width: 376px) and (max-width: 768px) {
   .title {
-    font-size: 72px;    
+    font-size: 72px;
     width: auto;
     margin-left: 32px;
     margin-right: 32px;
@@ -131,7 +135,7 @@ letter-spacing: -0.32px;
     margin-left: 32px;
     margin-right: 32px;
 
-align-items: center;
+    align-items: center;
   }
 
   .cta-text {
