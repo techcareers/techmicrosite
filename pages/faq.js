@@ -17,6 +17,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Navbar from "/components/Navbar";
 import Link from "next/link";
+import Head from "next/head";
 
 const FAQ = () => {
   const theme = useTheme();
@@ -40,6 +41,9 @@ const FAQ = () => {
 
   return (
     <div>
+      <Head>
+        <title>FAQ</title>
+      </Head>
       <Navbar />
       <div className="imageBackgroundContainer" style={{ height: "400px" }}>
         <ImageBackground
@@ -375,9 +379,9 @@ const FAQ = () => {
           />
           <FeaturedJobsCard
             title="Fullstack Software Engineer"
-            location="Stockholm"
+            location="Bangalore"
             jobFamily="H&M Group"
-            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999927377593-fullstack-software-engineer-hiring-for-top-down-planning-team-product-offer-development-"
+            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999929304576-software-engineer-full-stack-net-javascript-to-sourcing-foundation-vs-h-m-group"
           />
           <FeaturedJobsCard
             title="Cyber Defense Center Analyst"
@@ -399,9 +403,9 @@ const FAQ = () => {
           />
           <FeaturedJobsCard
             title="Fullstack Software Engineer"
-            location="Stockholm"
+            location="Bangalore"
             jobFamily="H&M Group"
-            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999927377593-fullstack-software-engineer-hiring-for-top-down-planning-team-product-offer-development-"
+            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999929304576-software-engineer-full-stack-net-javascript-to-sourcing-foundation-vs-h-m-group"
           />
         </ScrollingCards>
         <div

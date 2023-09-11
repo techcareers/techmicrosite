@@ -16,6 +16,7 @@ import FeaturedJobsCard from "/components/FeaturedJobsCard";
 import Footer from "/components/Footer";
 import Navbar from "/components/Navbar";
 import Link from "next/link";
+import Head from "next/head";
 
 /* 
 
@@ -104,6 +105,9 @@ const HomePage = ({ imageTechAtHmGroup }) => {
 
   return (
     <div>
+      <Head>
+        <title>Tech @ H&M Group</title>
+      </Head>
       <Navbar />
       <div className="videoBackgroundContainer">
         <VideoBackground
@@ -389,9 +393,9 @@ const HomePage = ({ imageTechAtHmGroup }) => {
           />
           <FeaturedJobsCard
             title="Fullstack Software Engineer"
-            location="Stockholm"
+            location="Bangalore"
             jobFamily="H&M Group"
-            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999927377593-fullstack-software-engineer-hiring-for-top-down-planning-team-product-offer-development-"
+            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999929304576-software-engineer-full-stack-net-javascript-to-sourcing-foundation-vs-h-m-group"
           />
           <FeaturedJobsCard
             title="Cyber Defense Center Analyst"
@@ -413,9 +417,9 @@ const HomePage = ({ imageTechAtHmGroup }) => {
           />
           <FeaturedJobsCard
             title="Fullstack Software Engineer"
-            location="Stockholm"
+            location="Bangalore"
             jobFamily="H&M Group"
-            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999927377593-fullstack-software-engineer-hiring-for-top-down-planning-team-product-offer-development-"
+            linkUrl="https://jobs.smartrecruiters.com/HMGroup/743999929304576-software-engineer-full-stack-net-javascript-to-sourcing-foundation-vs-h-m-group"
           />
         </ScrollingCards>
         <div
