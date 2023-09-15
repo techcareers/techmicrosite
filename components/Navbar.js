@@ -1,4 +1,5 @@
 import * as React from "react";
+import Head from "next/head";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -15,6 +16,7 @@ import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
+import next from "next";
 function HideOnScroll(props) {
   const { children, window } = props;
   const trigger = useScrollTrigger({
@@ -68,6 +70,23 @@ function Navbar() {
         style={{ background: "transparent", boxShadow: "none" }}
       >
         <Container>
+          <Head>
+            {/* OneTrust Cookies Consent Notice start for techcareers.hmgroup.com */}
+            <script
+              type="text/javascript"
+              src="https://cdn.cookielaw.org/consent/8b30c581-623e-450b-b2a2-7a4c276bb8e9/OtAutoBlock.js"
+              defer
+            ></script>
+            <script
+              src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+              data-document-language="true"
+              type="text/javascript"
+              charset="UTF-8"
+              data-domain-script="8b30c581-623e-450b-b2a2-7a4c276bb8e9"
+              defer
+            ></script>
+            {/* OneTrust Cookies Consent Notice end for techcareers.hmgroup.com  */}
+          </Head>
           <Toolbar
             disableGutters
             style={
