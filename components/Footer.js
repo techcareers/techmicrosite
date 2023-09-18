@@ -4,6 +4,7 @@ import { useTheme } from "@mui/material/styles";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 
 const Footer = () => {
   const theme = useTheme();
@@ -14,6 +15,29 @@ const Footer = () => {
     <>
       {!isXs && (
         <div className={styles.footer}>
+          {/* LinkedIn Insight Tag Scripts */}
+          <Script id="SC_LTS_CS6313689-19_H&M" type="text/javascript">
+            {` _linkedin_partner_id = "2583826"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id);`}{" "}
+          </Script>
+          <Script id="SC_LTS_CS6313689-19_H&Mpt2" type="text/javascript">
+            {" "}
+            {`(function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]} var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(window.lintrk); `}
+          </Script>
+          <Script
+            id="H&M Group - New"
+            type="text/javascript"
+          >{`_linkedin_partner_id = "2583826"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id);  `}</Script>
+          <Script
+            id="H&M Group - Newpt2"
+            type="text/javascript"
+          >{` (function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]} var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(window.lintrk); `}</Script>
+          {/* Google Analytics gtag.js Tag Scripts */}
+          <Script src="https://www.googletagmanager.com/gtag/js?id=G-EBQ7MMWKCW" />
+          <Script id="google-analytics">
+            {`
+window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-EBQ7MMWKCW');
+`}
+          </Script>
           <div className={styles.footerTop}>
             <svg
               width="262"
