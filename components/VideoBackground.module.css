@@ -124,18 +124,16 @@
 /* Small devices (landscape phones, 376px to 768px) */
 @media (min-width: 376px) and (max-width: 768px) {
   .title {
-    font-size: 72px;
-    width: auto;
+    width: 311px;
+    margin: 0 32px;
     margin-left: 32px;
-    margin-right: 32px;
-  }
-
-  .cta-button {
-    width: 188px;
-    margin-left: 32px;
-    margin-right: 32px;
-
-    align-items: center;
+    margin-right: 0;
+    font-family: HM Group Ampersand;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 55.996px;
+    letter-spacing: -0.32px;
   }
 
   .cta-text {
@@ -143,6 +141,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: 21px; /* 150% */
+    margin: auto;
+  }
+
+  .cta-button {
+    width: 311px;
+
+    margin: 48px 32px;
   }
 }
 

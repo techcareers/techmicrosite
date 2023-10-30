@@ -123,44 +123,40 @@
 }
 
 /* Small devices (landscape phones, 376px to 768px) */
-@media (min-width: 376px) and (max-width: 768px) {
-  .imageWithTextContainer {
-  }
-  .image-with-text {
-    padding: 100px 0 100px;
-    display: block;
-    position: relative;
-    margin-bottom: 20px;
-    width: 100%;
-    margin-left: 0;
-    color: #000000;
-    height: 688px;
-  }
+@media (min-width: 376px) and (max-width: 768px) { .image-with-text {
+  width: 100%;
+  margin-left: 0;
+  padding: 0px 24px;
+}
 
-  .image-with-text__image {
-    width: 50%;
-  }
+.image-with-text__image {
+  display: none;
+}
 
-  .image-with-text__wrapper {
-    padding: 0px 40px;
-    height: 100%;
-  }
+.image-with-text__wrapper {
+  width: 100%;
+  display: block;
+}
 
-  .text-content {
-    width: 50%;
+.text-content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  flex: 0;
+}
 
-    margin: 0;
-  }
-
-  .title {
-    font-size: 37px;
-  }
-
-  .paragraph {
-  }
-
-  .cta-button {
-  }
+.title {
+  width: 100%;
+  margin-bottom: 50px;
+  text-align: left;
+  line-height: 55.996px; /* 121.73% */
+  letter-spacing: -0.32px;
+}
+.cta-button {
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+}
 }
 
 /* Medium devices (tablets, 769px and up) */
