@@ -26,15 +26,14 @@ const FAQ = () => {
 
   const featuredJobsSliderSettings = {
     arrows: true,
-    slidesToShow: isXs ? 1 : isSm ? 3 : 5,
+    slidesToShow: isXs ? 1 : isSm ? 1 : 5,
     slidesToScroll: 1,
     autoplay: false,
     adaptiveHeight: true,
     centerMode: true,
     infinite: true,
-    centerPadding: "0px",
+    centerPadding: isXs ? "0px" : isSm ? "0px" : "0px",
     initialSlide: 2,
-    adaptiveHeight: true,
   };
 
   const featuredJobsSliderRef = useRef(null);
@@ -63,10 +62,11 @@ const FAQ = () => {
         }}
       >
         <h2
-          className={styles.faqQuestionTitle}
+          className={styles.faqQuestionMainTitle}
           style={{
             color: "#000000",
             marginTop: "120px",
+            textAlign: "left"
           }}
         >
           Frequently asked questions
@@ -80,7 +80,7 @@ const FAQ = () => {
         >
           Find the answers to your questions
         </p>
-        <Accordion square={true}>
+        <Accordion square={true} className={styles.faqAccordionClass}>
           <AccordionSummary
             expandIcon={<ExpandMoreIcon />}
             aria-controls="panel1a-content"

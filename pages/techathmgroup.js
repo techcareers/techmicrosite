@@ -30,29 +30,28 @@ const TechAtHmGroup = () => {
   const featuredJobsSliderRef = useRef(null);
 
   const meetColleaguesSliderRef = useRef(null);
-
   const featuredJobsSliderSettings = {
     arrows: true,
-    slidesToShow: isXs ? 1 : isSm ? 3 : 5,
+    slidesToShow: isXs ? 1 : isSm ? 1 : 5,
     slidesToScroll: 1,
     autoplay: false,
     adaptiveHeight: true,
     centerMode: true,
     infinite: true,
-    centerPadding: isXs ? "70px" : isSm ? "0px" : "0px",
+    centerPadding: isXs ? "0px" : isSm ? "0px" : "0px",
     initialSlide: 2,
-    adaptiveHeight: true,
   };
+
 
   const meetColleaguesSliderSettings = {
     arrows: true,
-    slidesToShow: isXs ? 1 : isSm ? 2.5 : 4.5,
+    slidesToShow: isXs ? 1 : isSm ? 1 : 4.5,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     adaptiveHeight: true,
     centerMode: true,
     infinite: true,
-    centerPadding: isXs ? "38px" : isSm ? "0px" : "0px",
+    centerPadding: isXs ? "38px" : isSm ? "38px" : "0px",
     initialSlide: 2,
     adaptiveHeight: true,
   };
@@ -585,7 +584,7 @@ const TechAtHmGroup = () => {
         >
           Our culture and values
         </h2>
-        <p style={{ width: "576px", color: "#000000" }}>
+        <p style={{  color: "#000000" }}>
           Our values are part of who we are, what we stand for, and how we act.
           By living our values, we create an open and down-to-earth culture
           where we can work together to do best what matters most to our

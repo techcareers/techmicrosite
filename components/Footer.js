@@ -8,8 +8,8 @@ import Script from "next/script";
 
 const Footer = () => {
   const theme = useTheme();
-  const isXs = useMediaQuery(theme.breakpoints.down(376));
-  const isSm = useMediaQuery(theme.breakpoints.down(769));
+  // fix fusk laga
+  const isXs = useMediaQuery(theme.breakpoints.down(769));
 
   return (
     <>

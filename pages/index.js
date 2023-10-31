@@ -57,13 +57,13 @@ const HomePage = ({ imageTechAtHmGroup }) => {
 
   const featuredJobsSliderSettings = {
     arrows: true,
-    slidesToShow: isXs ? 1 : isSm ? 3 : 5,
+    slidesToShow: isXs ? 1 : isSm ? 1 : 5,
     slidesToScroll: 1,
     autoplay: false,
     adaptiveHeight: true,
     centerMode: true,
     infinite: true,
-    centerPadding: isXs ? "70px" : isSm ? "0px" : "0px",
+    centerPadding: isXs ? "0px" : isSm ? "0px" : "0px",
     initialSlide: 2,
   };
 

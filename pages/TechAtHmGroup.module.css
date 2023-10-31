@@ -100,6 +100,7 @@
 .reImagineContainer {
   margin: auto;
   margin-top: 100px;
+  margin-left: 0;
   height: fit-content;
   width: 80%;
   text-align: center;
@@ -194,6 +195,8 @@
 
   .reImagineContainer h2 {
     margin: 0 24px;
+
+  margin-left: 0;
     margin-top: 100px;
     height: fit-content;
     text-align: left;
@@ -216,9 +219,10 @@
   }
 
   .ourBenefitsContainer {
-    margin: 100px 40px;
+    margin: 100px 24px;
     height: fit-content;
     width: auto;
+    
   }
   .ourAreasImage {
     margin: 0 auto;
@@ -265,69 +269,198 @@
 }
 
 /* Small devices (landscape phones, 376px to 768px) */
-@media (min-width: 376px) and (max-width: 768px) {
-  .introTitle {
-    width: 576px;
-    text-align: left;
-    margin: 0 40px;
-    padding-bottom: 16px;
-  }
+@media (min-width: 376px) and (max-width: 768px) { .likeToWorkText {
+  margin: 0 0 0 24px;
+}
 
-  .introText {
-    margin: 0 40px;
-  }
-  .ourTechAreasTitle {
-  }
+.introWrapper {
+  padding: 24px 0;
+  width: 100%;
+  margin: 0 0;
+  height: 240px;
+  display: block;
+  margin: auto 0;
+}
 
-  .ourTechAreasContainer {
-    margin: 0 40px;
-  }
+.introTitle {
+  width: 327px;
+  text-align: left;
+  margin: 0 24px;
+  padding-bottom: 16px;
+  width: 327px;
+}
 
-  .reImagineContainer {
-    margin: 0 40px;
-    margin-top: 100px;
-    height: fit-content;
-    text-align: left;
-  }
+.introText {
+  margin: 0 24px;
+  width: 327px;
+}
+.ourTechAreasTitle {
+}
 
-  .reImagineContainer h2 {
-    margin: 0 40px;
-    margin-top: 100px;
-    height: fit-content;
-    text-align: left;
-    width: 100%;
-  }
+.ourTechAreasContainer {
+  margin: 0 24px;
+}
 
-  .reImagineContainer img {
-    margin: 0 40px;
-    width: 688px;
-    height: 387px;
-  }
-  .ourCultureAndValuesContainer {
-    margin: 0 40px;
-    margin-top: 100px;
-    height: fit-content;
-    width: auto;
-  }
+.reImagineContainer {
+  margin: 0 24px;
+  margin-top: 100px;
+  height: fit-content;
+  text-align: left;
+}
 
-  .ourBenefitsContainer {
-    margin: 100px 40px;
-    height: fit-content;
-    width: auto;
-  }
+.reImagineContainer h2 {
+  margin: 0 24px;
+
+margin-left: 0;
+  margin-top: 100px;
+  height: fit-content;
+  text-align: left;
+  width: 100%;
+}
+
+.reImagineContainer img {
+  margin: 0 auto;
+  width: 324px;
+  height: 182px;
+}
+.ourCultureAndValuesContainer {
+  margin: 0 24px;
+  margin-top: 100px;
+  height: fit-content;
+  width: auto;
+}
+.ourCultureAndValuesContainer p {
+  width: 100%;
+}
+
+.ourBenefitsContainer {
+  margin: 100px 24px;
+  height: fit-content;
+  width: auto;
+}
+.ourAreasImage {
+  margin: 0 auto;
+  width: 324px;
+  height: 182px;
+}
+
+.quickLinksButton {
+  padding: 16px 32px;
+  align-items: center;
+
+  margin: 24px 0;
+  width: 100%;
+}
+
+.quickLinkText {
+  display: inline-block;
+  width: fit-content;
+
+  font-family: HM Group Ampersand;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 150% */
+}
+
+.quickLinksArrow {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  line-height: 40px;
+  margin: 0 0 0 0;
+  float: right;
+}
+
+.quickLinksArrow {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  line-height: 40px;
+  margin: 2px 0 0 0;
+  float: right;
+}
 }
 
 /* Medium devices (tablets, 769px and up) */
 @media (min-width: 769px) and (max-width: 1199px) {
+
+  .ourCultureAndValuesContainer p {
+    width: 576px;
+  }
+  .reImagineContainer {
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 0;
+    height: fit-content;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .reImagineContainer img {
+    margin: 0 40px;
+    width: 816px;
+    height: 459px;
+  }
   /* Adjustments for tablets can be added here */
 }
 
 /* Large devices (desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .ourCultureAndValuesContainer p {
+    width: 576px;
+  }
+  .reImagineContainer {
+    margin: auto;
+    margin-top: 100px;
+    height: fit-content;
+    text-align: center;
+    width: 944px;
+
+  }
+  
+  .reImagineContainer img {
+    margin: 0 40px;
+    width: 816px;
+    height: 459px;
+  }
+
+  .ourBenefitsContainer {
+    height: fit-content;
+
+    margin: auto;
+    width: 80%;
+
+  }
   /* Adjustments for large desktops can be added here */
 }
 
 /* Custom breakpoint for 4K and large screens */
 @media (min-width: 2560px) {
+  .ourCultureAndValuesContainer p {
+    width: 576px;
+  }
+  .reImagineContainer {
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 0;
+    height: fit-content;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .reImagineContainer img {
+    margin: 0 40px;
+    width: 816px;
+    height: 459px;
+  }
+
+  .ourBenefitsContainer {
+    height: fit-content;
+
+    margin: auto;
+    width: 80%;
+
+  }
   /* Adjustments for 4K and large screens can be added here */
 }

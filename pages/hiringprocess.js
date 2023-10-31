@@ -21,15 +21,14 @@ const HiringProcess = () => {
 
   const featuredJobsSliderSettings = {
     arrows: true,
-    slidesToShow: isXs ? 1 : isSm ? 3 : 5,
+    slidesToShow: isXs ? 1 : isSm ? 1 : 5,
     slidesToScroll: 1,
     autoplay: false,
     adaptiveHeight: true,
     centerMode: true,
     infinite: true,
-    centerPadding: "0px",
+    centerPadding: isXs ? "0px" : isSm ? "0px" : "0px",
     initialSlide: 2,
-    adaptiveHeight: true,
   };
 
   const featuredJobsSliderRef = useRef(null);
@@ -52,20 +51,13 @@ const HiringProcess = () => {
         <div
           className={styles.introWrapper}
           style={{
-            padding: "0px 64px",
-            width: "944px",
-            height: "fit-content",
-            display: "block",
-            padding: "120px 0",
+
           }}
         >
           <h2
             className="introTitle"
             style={{
-              color: "#000000",
-              width: "576px",
-              textAlign: "left",
-              paddingBottom: "16px",
+
             }}
           >
             Our recruitment process
@@ -73,11 +65,7 @@ const HiringProcess = () => {
           <div
             className="introText"
             style={{
-              fontSize: "17px",
-              textAlign: "left",
-              width: "576px",
-              color: "#000000",
-              lineHeight: "28px",
+
             }}
           >
             <br />
@@ -141,11 +129,27 @@ const HiringProcess = () => {
               position: "relative",
             }}
             src={
-              "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/hiringprocess/imagetimeline_mobile.jpg"
+              "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/hiringprocess/Timeline.png"
             }
             alt="hiringImage"
           />
-        ) : (
+        ) : 
+        isSm ? (
+          <img
+            className={styles.hiringImage}
+            style={{
+              height: "fit-content",
+              display: "block",
+              position: "relative",
+            }}
+            src={
+              "https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/hiringprocess/Timeline.png"
+            }
+            alt="hiringImage"
+          />
+        )
+        
+        : (
           <img
             className={styles.hiringImage}
             style={{

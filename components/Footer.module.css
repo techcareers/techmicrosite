@@ -231,18 +231,96 @@ line-height: 24.32px; /* 152% */
 
 /* Small devices (landscape phones, 376px to 768px) */
 @media (min-width: 376px) and (max-width: 768px) {
-    .footerLinks{
 
-        
-        width: 100%;
-        
-    
-    }
-    .footerBottom {
-
-      width: 100%;
+    .footer{
+        height: fit-content;
     }
 
+    /* CSS for mobileFooterLinks */
+.mobileFooterLinks {
+    width: 322px;
+}
+
+
+
+/* CSS for mobileCareerDiv */
+.mobileCareerDiv {
+ margin-bottom: 20px;
+}
+
+/* CSS for mobileLinksDiv */
+.mobileLinksDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 6px;
+    align-self: stretch;
+}
+
+/* CSS for mobileFooterBottom */
+.mobileFooterBottom {
+    width: 322px;
+color: #6D7278;
+font-family: HM Group Ampersand;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24.32px; /* 152% */
+}
+
+/* CSS for mobileFooterSocials */
+.mobileFooterSocials {
+  margin: 20px 0 0 0;
+}
+
+/* CSS for mobileCtaButton */
+.mobileCtaButton {
+    display: flex;
+    padding: 16px 32px;
+    align-items: flex-start;
+    gap: 24px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    color:#FFFFFF;
+    margin: 0 auto;
+
+}
+
+/* CSS for mobileCareerTitle */
+.mobileCareerTitle {
+    font-family: HM Group Ampersand;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.999px; /* 164.7% */
+    letter-spacing: -0.32px;
+    margin-top: 50px;
+}
+
+/* CSS for mobileCareerText */
+.mobileCareerText {
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.999px; /* 164.7% */
+}
+
+/* CSS for mobileLinksTitle */
+.mobileLinksTitle {
+    font-family: HM Group Ampersand;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.999px; /* 164.7% */
+    letter-spacing: -0.32px;
+}
+
+
+
+/* CSS for mobileLiLogo */
+.mobileLiLogo {
+    margin: 0 24px;
+}
 
 }
 

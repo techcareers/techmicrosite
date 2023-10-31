@@ -1,8 +1,6 @@
 
 
-.faqQuestionTitle{
-  text-align: center;
-}
+
 
 .faqQuestionsContainer{
 
@@ -17,10 +15,32 @@
   .faqQuestionsContainer{
     padding: 0px 25.5px;
     width: 100%;
+    
+  }
+
+  .faqQuestionsContainer div{
+    padding-left: 0;
   }
 
 
   
+  .faqQuestionTitle{
+    /* Heading/XLarge/Mobile */
+text-align: left;
+font-family: HM Group Ampersand;
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+line-height: 27.999px; /* 164.7% */
+letter-spacing: -0.32px;
+  }
+
+
+}
+
+/* Small devices (landscape phones, 376px to 768px) */
+@media (min-width: 376px) and (max-width: 768px) {
+
   .faqQuestionTitle{
     /* Heading/XLarge/Mobile */
 text-align: left;
@@ -32,16 +52,15 @@ font-weight: 700;
 line-height: 27.999px; /* 164.7% */
 letter-spacing: -0.32px;
   }
-  
-}
-
-/* Small devices (landscape phones, 376px to 768px) */
-@media (min-width: 376px) and (max-width: 768px) {
     .faqQuestionsContainer{
 
         width: auto;
         margin: 0 40px;
     
+    }
+
+    .faqQuestionsContainer div{
+      padding-left: 0;
     }
 }
 
