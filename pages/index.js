@@ -124,7 +124,7 @@ const HomePage = ({ imageTechAtHmGroup }) => {
         <ImageWithText
           className={styles.imageWithText}
           style={{ color: "#000000" }}
-          imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/techathmgroup.jpg"
+          imageUrl="https://techmicrositestorage.blob.core.windows.net/techmicrositeimages/images/start/techathmgroup.jpeg"
           title="Tech @ H&M Group"
           paragraph="We are a community of creators, doers, learners, entrepreneurs, and innovators. Our mission is to re- invent the world of fashion through technology, creating meaningful growth along the way. With the right people and cutting-edge tech, we can help drive change towards a more sustainable future."
           cta={{ text: "Discover our approach", href: "/techathmgroup" }}
