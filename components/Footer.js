@@ -32,12 +32,13 @@ const Footer = () => {
             type="text/javascript"
           >{` (function(l) { if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])}; window.lintrk.q=[]} var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(window.lintrk); `}</Script>
           {/* Google Analytics gtag.js Tag Scripts */}
-          <Script src="https://www.googletagmanager.com/gtag/js?id=G-EBQ7MMWKCW" />
+          <Script src="https://www.googletagmanager.com/gtag/js?id=G-1316HPTRHM" />
           <Script id="google-analytics">
             {`
-window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-EBQ7MMWKCW');
+window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-1316HPTRHM');
 `}
           </Script>
+
           <div className={styles.footerTop}>
             <svg
               width="262"
